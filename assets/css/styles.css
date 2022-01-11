@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Open+Sans:wght@300&family=The+Nautigal:wght@700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
 
 
-body{
+body {
     font-family: 'Open Sans ', sans-serif;
     font-weight: 200;
     color: #292929;
@@ -15,21 +15,23 @@ body{
 
 /* heading and logo */
 
-a{
+a {
     text-decoration: none;
 }
 
 h1 {
     font-family: 'The Nautigal', cursive;
-    font-size: 300%;
-    text-align: left;
+    padding-top: 5px;
+    font-size: 400%;
+    text-align: center;
     color: #292929;
+
 }
 
-/* logo animation */
-/* code that I adpated to create the background url - https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1 */
+/* css animation */
+/* code that I adapted to create the background url - https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1 */
 
-#logo-animation{
+.css-animation {
     background-color: #D891A2;
     animation-name: logo;
     animation-duration: 7s;
@@ -37,8 +39,42 @@ h1 {
 }
 
 @keyframes logo {
-    from {background-color: white;}
-    to { background-color: #FFD1DC;}
-    to {background-color: #D891A2;}
+    from {
+        background-color: white;
+    }
 
+    to {
+        background-color: #FFD1DC;
+    }
+
+    to {
+        background-color: #D891A2;
+    }
+
+}
+
+/* navigation menu and links*/
+
+/* horizontal navigation inspiration url - https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/ */
+
+.nav {
+    border: 2px solid #8C344A;
+    background-color: #FED1DC;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    font-family: 'Lobster Two', cursive, sans-serif;
+    color: #292929;
+    display: inline;
+    font-size: 150%;
+}
+
+
+.nav a {
+    display: inline-block;
+    padding: 5px 50px 5px 50px;
 }
