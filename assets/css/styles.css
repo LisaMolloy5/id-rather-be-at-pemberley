@@ -11,6 +11,11 @@ body {
     font-family: 'Open Sans ', sans-serif;
     font-weight: 200;
     color: #292929;
+    background-color: #FAFFCD;
+}
+
+hr{
+    border-top:20px solid #FAFFCD;
 }
 
 /* heading and logo */
@@ -19,7 +24,7 @@ a {
     text-decoration: none;
 }
 
-h1 {
+a h1 {
     font-family: 'The Nautigal', cursive;
     padding-top: 5px;
     font-size: 400%;
@@ -28,8 +33,14 @@ h1 {
 
 }
 
+h2{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
 /* css animation */
-/* code that I adapted to create the background url - https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1 */
+/* code that I adapted to create the background animation url - https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1 */
 
 .css-animation {
     background-color: #D891A2;
@@ -77,4 +88,32 @@ h1 {
 .nav a {
     display: inline-block;
     padding: 5px 50px 5px 50px;
+}
+
+
+/* What we are reading section */
+
+#currently-reading{
+    background-color: #FED1DC;
+}
+section h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 150%;
+    text-align: center;
+}
+
+div p {
+    font-size: 100%;
+    text-align: center;
+
+}
+
+#home-book-image{
+    height: 190px;
+    width: 20%;
+    margin-left: 45%;
+    margin-top: 20px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/Reputation.jpg');
 }
