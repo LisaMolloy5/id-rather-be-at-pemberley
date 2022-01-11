@@ -43,7 +43,7 @@ h2{
 /* code that I adapted to create the background animation url - https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1 */
 
 .css-animation {
-    background-color: #D891A2;
+    background-color: white;
     animation-name: logo;
     animation-duration: 7s;
 
@@ -90,6 +90,18 @@ h2{
     padding: 5px 50px 5px 50px;
 }
 
+/* Welcome section */
+
+#welcome-image{
+    height: 500px;
+    width: 200%;
+    padding: 0;
+    margin: 0;
+    border: 3px solid #D891A2;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-image: url('../images/sixteen-miles-out-SvbDNnbipj0-unsplash.jpg')
+}
 
 /* What we are reading section */
 
