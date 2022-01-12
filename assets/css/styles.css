@@ -92,20 +92,42 @@ h2{
 
 /* Welcome section */
 
-#welcome-image{
-    height: 500px;
-    width: 200%;
-    padding: 0;
-    margin: 0;
-    border: 3px solid #D891A2;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-image: url('../images/sixteen-miles-out-SvbDNnbipj0-unsplash.jpg')
-}
+
+
+ #welcome-image{
+     height: 600px;
+     width: 100%;
+     position: relative;
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-image: url('../images/sixteen-miles-out-SvbDNnbipj0-unsplash.jpg');
+ }
+
+ #cover-text h1{
+     font-size: 100%;
+     font-family: 'Open Sans', sans-serif;
+     letter-spacing: 2px;
+     text-align: center;
+
+     width: 300px;
+     height: 150px;
+
+     padding-top: 40px;
+     padding-left: 10px;
+
+     background-color: rgba( 200, 162, 200, .5);
+
+     bottom: 100px;
+     right: 150px;
+
+     position: absolute;
+ }
+
 
 /* What we are reading section */
 
-#currently-reading{
+
+/* #currently-reading{
     background-color: #FED1DC;
 }
 section h1{
@@ -118,9 +140,9 @@ div p {
     font-size: 100%;
     text-align: center;
 
-}
+} */
 
-#home-book-image{
+/* #home-book-image{
     height: 190px;
     width: 20%;
     margin-left: 45%;
