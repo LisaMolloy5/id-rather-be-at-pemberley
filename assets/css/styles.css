@@ -8,14 +8,14 @@
 
 
 body {
-    font-family: 'Open Sans ', sans-serif;
-    font-weight: 200;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
     color: #292929;
-    background-color: white;
+    background-color: #fbf8fb;
 }
 
-hr{
-    border-top:20px solid #FAFFCD;
+hr {
+    border-top: 20px solid #FAFFCD;
 }
 
 /* heading and logo */
@@ -33,7 +33,7 @@ a h1 {
 
 }
 
-h2{
+h2 {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin: auto;
@@ -45,13 +45,13 @@ h2{
 .css-animation {
     background-color: #D891A2;
     animation-name: logo;
-    animation-duration: 7s;
+    animation-duration: 10s;
 
 }
 
 @keyframes logo {
     from {
-        background-color: white;
+        background-color: #fbf8fb;
     }
 
     to {
@@ -69,7 +69,7 @@ h2{
 /* horizontal navigation inspiration url - https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/ */
 
 .nav {
-    border:  #8C344A;
+    border: #8C344A;
     background-color: #FED1DC;
     list-style-type: none;
     text-align: center;
@@ -94,87 +94,108 @@ h2{
 
 
 
- #welcome-image{
-     height: 600px;
-     width: 100%;
-     position: relative;
-     padding-bottom: 10px;
-     background-repeat: no-repeat;
-     background-size: 100%;
-     background-image: url('../images/sixteen-miles-out-SvbDNnbipj0-unsplash.jpg');
- }
+#welcome-image {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('../images/sixteen-miles-out-SvbDNnbipj0-unsplash.jpg');
+}
 
- #cover-text h1{
-     font-size: 100%;
-     font-family: 'Open Sans', sans-serif;
-     letter-spacing: 2px;
-     text-align: center;
+#cover-text h1 {
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
 
-     width: 300px;
-     height: 150px;
+    width: 300px;
+    height: 150px;
 
-     padding-top: 40px;
-     padding-left: 10px;
+    padding-top: 40px;
+    padding-left: 10px;
 
-     background-color: rgba( 200, 162, 200, .5);
+    background-color: rgba(200, 162, 200, .5);
 
-     bottom: 100px;
-     right: 150px;
+    bottom: 100px;
+    right: 150px;
 
-     position: absolute;
- }
+    position: absolute;
+}
 
 /* Currently reading section */
 
-.container{
+#currently-reading {
+
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 10px double rgba( 200, 162, 200, .5);
+    border: 10px double rgba(200, 162, 200, .5);
     text-align: center;
-    background-color: white;
-    width: 99%;
+    background-color: #fbf8fb;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 50px;
-    
+
 }
 
-#currently-image{
+#currently-image {
 
     margin-bottom: 2%;
     margin-right: auto;
     margin-left: auto;
-    border: 3px solid blueviolet;
+    border: 3px double blueviolet;
     height: 160px;
-    width: 6%;
+    width: 8.5%;
     background-repeat: no-repeat;
     background-image: url('../images/Reputation.jpg');
 }
 
-.container h1{
+#currently-reading h1 {
     font-family: 'Lobster Two', cursive, sans-serif;
     font-size: 200%;
     color: #8C344A;
     padding-bottom: 10px;
 }
+
+
 
 
 /* About us section */
 
 #about-us{
-    text-align: center;
+    height: 600px;
+}
+
+#left-section{
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+
+}
+
+#right-section{
+    padding-top: 30px;
+    height: 400px;
+    width: 50%;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('../images/pexels-ioana-motoc-4346281.jpg');
+
+}
+
+/* footer */
+
+.footer{
+    height: 200px;
+    background-color: #D891A2;
+    
+}
+
+#social-media{
     margin-right: 50%;
 }
 
-#about-us h1{
-    font-family: 'Lobster Two', cursive, sans-serif;
-    font-size: 200%;
-    color: #8C344A;
-}
-
-#about-us p{
-    font-family: 'Open Sans', sans-serif;
-    color: #292929;
-    font-weight: 400;
-
+#contact-info{
+    margin-left: 50%;
 }
