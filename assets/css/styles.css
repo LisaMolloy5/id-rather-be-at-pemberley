@@ -98,6 +98,7 @@ h2{
      height: 600px;
      width: 100%;
      position: relative;
+     padding-bottom: 10px;
      background-repeat: no-repeat;
      background-size: 100%;
      background-image: url('../images/sixteen-miles-out-SvbDNnbipj0-unsplash.jpg');
@@ -123,58 +124,42 @@ h2{
      position: absolute;
  }
 
+/* Currently reading section */
 
-/* What we are reading section */
-
-#container{
-
-     width: 500px;
-     height: 500px;
-
-     margin: 0, 100px, 0, 100px;
-
-     padding-top: 50px;
-     padding-left: 10px;
-
-     border: 2px solid #8C344A;
-
-     background-color: rgba( 200, 162, 200, .5);
-
-     bottom: 200px;
-     right: 150px;
-
-}
-
-#currently-reading-image{
+.container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 10px double rgba( 200, 162, 200, .5);
+    text-align: center;
+    background-color: #FAFFCD;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
     
-    height: 300px;
-    width: 70%;
+}
+
+#currently-image{
+
+    margin-bottom: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid blueviolet;
+    height: 160px;
+    width: 12%;
     background-repeat: no-repeat;
     background-image: url('../images/Reputation.jpg');
 }
 
-
-/* #currently-reading{
-    background-color: #FED1DC;
-}
-section h1{
-    font-family: 'Lobster Two', cursive;
-    font-size: 150%;
-    text-align: center;
+.container h1{
+    font-family: 'Lobster Two', cursive, sans-serif;
+    font-size: 200%;
+    color: #8C344A;
+    padding-bottom: 10px;
 }
 
-div p {
-    font-size: 100%;
+.container h1 h2{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
-} */
-
-/* #home-book-image{
-    height: 190px;
-    width: 20%;
-    margin-left: 45%;
-    margin-top: 20px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-image: url('../images/Reputation.jpg');
-}
