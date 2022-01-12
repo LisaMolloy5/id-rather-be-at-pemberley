@@ -126,6 +126,33 @@ h2{
 
 /* What we are reading section */
 
+#container{
+
+     width: 500px;
+     height: 500px;
+
+     margin: 0, 100px, 0, 100px;
+
+     padding-top: 50px;
+     padding-left: 10px;
+
+     border: 2px solid #8C344A;
+
+     background-color: rgba( 200, 162, 200, .5);
+
+     bottom: 200px;
+     right: 150px;
+
+}
+
+#currently-reading-image{
+    
+    height: 300px;
+    width: 70%;
+    background-repeat: no-repeat;
+    background-image: url('../images/Reputation.jpg');
+}
+
 
 /* #currently-reading{
     background-color: #FED1DC;
