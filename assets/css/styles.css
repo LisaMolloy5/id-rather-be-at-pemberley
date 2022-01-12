@@ -69,7 +69,7 @@ h2{
 /* horizontal navigation inspiration url - https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/ */
 
 .nav {
-    border: 2px solid #8C344A;
+    border:  #8C344A;
     background-color: #FED1DC;
     list-style-type: none;
     text-align: center;
@@ -157,9 +157,3 @@ h2{
     color: #8C344A;
     padding-bottom: 10px;
 }
-
-.container h1 h2{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
