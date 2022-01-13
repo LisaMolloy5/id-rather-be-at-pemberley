@@ -184,10 +184,23 @@ h2 {
     
 }
 
-#social-media{
-    margin-right: 50%;
+.footer h1{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 1px;
 }
 
-#contact-info{
-    margin-left: 50%;
+.social-networks{
+    text-align: left;
+}
+
+.social-links > li{
+    display: inline;
+
+}
+
+.social-links i{
+    font-size: 200%;
+    margin: 1;
+    padding: 3%;
+    color: #292929;
 }
