@@ -94,8 +94,6 @@ h2 {
 
 /* Welcome section */
 
-
-
 #welcome-image {
     height: 600px;
     width: 100%;
@@ -135,8 +133,7 @@ h2 {
     border: 10px double rgba(200, 162, 200, .5);
     text-align: center;
     background-color: #fbf8fb;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1%;
 
 }
 
@@ -220,4 +217,22 @@ footer{
 
 }
 
+/* Sign up form */
 
+.form-section {
+    clear: both;
+    border: 3px double rgba(200, 162, 200, .5);
+    background-color: #fbf8fb;
+    background-size: cover;
+    height: 900px;
+}
+
+#title{
+    border: 5px double rgba(200, 162, 200, .5);
+    margin: 2%;
+    padding: 50px;
+    font-family: 'Lobster Two', cursive, sans-serif;
+    letter-spacing: 2px;
+    font-size: 200%;
+    text-align: center;
+}
