@@ -144,7 +144,7 @@ h2 {
     padding-bottom: 10px;
 }
 
-#currently-reading img{
+#currently-reading img {
     max-height: auto;
     max-width: 20%;
     background-size: 20%;
@@ -154,72 +154,76 @@ h2 {
 
 
 /* About us section */
-
-#about-us{
-    height: 600px;
+#about-us {
+    background-color: rgba(200, 162, 200, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
-#left-section{
-    padding: 30px, 30px ,30px ,30px;
-    width: 50%;
-    float: left;
-    position: absolute;
-
-}
-
-#about-us img{
-    float: right;
-    position: relative;
-    max-height: auto;
+#about-us img {
+    padding: 5px;
+    max-height: 400px;
     max-width: 50%;
-    background-size: 20%;
+    border: 3px inset white;
 }
+
+#left-section h1 {
+    font-family: 'Lobster Two', cursive, sans-serif;
+    font-size: 200%;
+}
+
+#about-us>div {
+    flex-basis: 50%;
+    margin-left: 100px;
+}
+
 
 /* footer */
 
-footer{
+footer {
     color: white;
     background-color: #D891A2;
     font-family: 'Open Sans', sans-serif;
     padding: 50px 20px;
 }
 
-.footer-container{
+.footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.footer-container > ul{
+.footer-container>ul {
     margin-bottom: 35px;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-   
+
 }
 
-.flex-row-1 li{
+.flex-row-1 li {
     text-align: center;
     letter-spacing: 2px;
     padding: 2px 1px;
 }
 
-.flex-row-2 > li{
+.flex-row-2>li {
     display: inline;
     padding: 2px 1px;
 }
 
-.flex-row-2 i{
+.flex-row-2 i {
     font-size: 200%;
     padding: 0 15px;
     margin-bottom: 16px;
     color: white
-
 }
 
 /* Events */
 
-#title{
+#title {
     border: 5px double rgba(200, 162, 200, .5);
     margin: 2%;
     padding: 50px;
@@ -229,6 +233,9 @@ footer{
     text-align: center;
 }
 
+#event-1{
+    margin: auto;
+}
 /* Sign up form */
 
 .form-section {
@@ -238,7 +245,7 @@ footer{
     height: 500px;
 }
 
-.signup-form{
+.signup-form {
     margin: 150px 10% 0 0;
     color: #8C344A;
     background-color: rgba(200, 162, 200, .2);
@@ -247,6 +254,3 @@ footer{
     left: 40%;
     padding: 30px;
 }
-
-
-
