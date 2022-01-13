@@ -138,23 +138,17 @@ h2 {
 
 }
 
-#currently-image {
-
-    margin-bottom: 2%;
-    margin-right: auto;
-    margin-left: auto;
-    border: 3px double blueviolet;
-    height: 160px;
-    width: 8.5%;
-    background-repeat: no-repeat;
-    background-image: url('../images/Reputation.jpg');
-}
-
 #currently-reading h1 {
     font-family: 'Lobster Two', cursive, sans-serif;
     font-size: 200%;
     color: #8C344A;
     padding-bottom: 10px;
+}
+
+#currently-reading img{
+    max-height: auto;
+    max-width: 20%;
+    background-size: 20%;
 }
 
 
@@ -167,21 +161,19 @@ h2 {
 }
 
 #left-section{
-    padding-top: 30px;
+    padding: 30px, 30px ,30px ,30px;
     width: 50%;
     float: left;
+    position: absolute;
 
 }
 
-#right-section{
-    padding-top: 30px;
-    height: 400px;
-    width: 50%;
+#about-us img{
     float: right;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-image: url('../images/pexels-ioana-motoc-4346281.jpg');
-
+    position: relative;
+    max-height: auto;
+    max-width: 50%;
+    background-size: 20%;
 }
 
 /* footer */
