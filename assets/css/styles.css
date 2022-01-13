@@ -88,6 +88,8 @@ h2 {
 .nav a {
     display: inline-block;
     padding: 5px 50px 5px 50px;
+    text-decoration: none;
+    color: #292929;
 }
 
 /* Welcome section */
@@ -178,29 +180,44 @@ h2 {
 
 /* footer */
 
-.footer{
-    height: 200px;
+footer{
+    color: white;
     background-color: #D891A2;
-    
-}
-
-.footer h1{
     font-family: 'Open Sans', sans-serif;
-    margin-left: 1px;
+    padding: 50px 20px;
 }
 
-.social-networks{
-    text-align: left;
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.social-links > li{
+.footer-container > ul{
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+   
+}
+
+.flex-row-1 li{
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 2px 1px;
+}
+
+.flex-row-2 > li{
     display: inline;
-
+    padding: 2px 1px;
 }
 
-.social-links i{
+.flex-row-2 i{
     font-size: 200%;
-    margin: 1;
-    padding: 3%;
-    color: #292929;
+    padding: 0 15px;
+    margin-bottom: 16px;
+    color: white
+
 }
+
+
