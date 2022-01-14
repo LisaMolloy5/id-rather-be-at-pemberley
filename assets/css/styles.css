@@ -145,7 +145,6 @@ h2 {
 }
 
 #currently-reading img {
-    max-height: auto;
     max-width: 20%;
     background-size: 20%;
 }
@@ -223,7 +222,7 @@ footer {
 
 /* Events */
 
-#title {
+.title {
     border: 5px double rgba(200, 162, 200, .5);
     margin: 2%;
     padding: 50px;
@@ -250,11 +249,10 @@ footer {
     border: 3px solid rgba(200, 162, 200, .5);
     padding: 2px;
 }
-}
 
 #event-1 img{
     text-align: center;
-    max-height: 300px;
+    max-height: 500px;
     max-width: 50%;
 
 }
@@ -267,7 +265,6 @@ footer {
 }
 
 #event-3 img{
-    text-align: center;
     max-height: 500px;
     max-width: 50%;
 
