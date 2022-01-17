@@ -11,7 +11,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     color: #292929;
-    background-color: #fbf8fb;
+    background-color: #fef4fe;
 }
 
 hr {
@@ -51,15 +51,15 @@ h2 {
 
 @keyframes logo {
     from {
-        background-color: #fbf8fb;
+        background-color: #FAF0F2;
     }
 
     to {
-        background-color: #FFD1DC;
+        background-color: #E2ACB9;
     }
 
     to {
-        background-color: #D891A2;
+        background-color: #CA687F;
     }
 
 }
@@ -69,8 +69,8 @@ h2 {
 /* horizontal navigation inspiration url - https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/ */
 
 .nav {
-    border: #8C344A;
-    background-color: #FED1DC;
+    border: 4px double #D891A2;
+    background-color: #F4DFE4;
     list-style-type: none;
     text-align: center;
     margin: 0;
@@ -234,20 +234,26 @@ footer {
 
 #event-1{
     margin: 200px;
-    border: 3px solid rgba(200, 162, 200, .5);
+    border: 3px double #ba89ba;
     padding: 2px;
+    text-align: center;
+    background-color: #F7E8F3;
 }
 
 #event-2{
     margin: 200px;
-    border: 3px solid rgba(200, 162, 200, .5);
+    border: 3px double #ba89ba;
     padding: 2px;
+    text-align: center;
+    background-color: #F7E8F3;
 }
 
 #event-3{
     margin: 200px;
-    border: 3px solid rgba(200, 162, 200, .5);
+    border: 3px double #ba89ba;
     padding: 2px;
+    text-align: center;
+    background-color: #F7E8F3;
 }
 
 #event-1 img{
