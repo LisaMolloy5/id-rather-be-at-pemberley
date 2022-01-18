@@ -153,29 +153,46 @@ h2 {
 
 
 /* About us section */
-#about-us {
-    background-color: rgba(200, 162, 200, .5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+
+/* Flexbox guide used URL- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+#about-us-container {
+    display: inline-flex;
+    margin: 5%;
+
 }
 
-#about-us img {
-    padding: 5px;
-    max-height: 400px;
-    max-width: 50%;
-    border: 3px inset white;
+#about-us-container img{
+    height: 200px;
+    flex: 1;
+    border: #FAF0F2;
+    border-radius: 30px;
+    margin-top: 10%;
 }
 
-#left-section h1 {
-    font-family: 'Lobster Two', cursive, sans-serif;
-    font-size: 200%;
+#flex-left{
+    text-align: left;
+    letter-spacing: 2px;
+    flex: 1;
+    padding: 2px 30px 10px 30px;
 }
 
-#about-us>div {
-    flex-basis: 50%;
-    margin-left: 100px;
+#flex-left h3{
+    padding-top: 20px;
+
+}
+
+#flex-right{
+    text-align: right;
+    letter-spacing: 2px;
+    flex: 1;
+    padding: 2px 30px 2px 30px;
+
+}
+
+#flex-right h3{
+    padding-top: 20px;
+
 }
 
 

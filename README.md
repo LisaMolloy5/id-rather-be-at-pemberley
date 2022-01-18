@@ -29,6 +29,8 @@ wireframes
 
 [Creating a Simple Footer With Flexbox](https://www.youtube.com/watch?v=UOnFJ6tu3PY)
 
+[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 ---
 
 # Deployment
