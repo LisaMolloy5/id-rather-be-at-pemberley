@@ -253,94 +253,31 @@ footer {
     text-align: center;
 }
 
-#event-1 {
-    margin: 100px;
+.events {
+    margin: 200px;
     border: 3px double #ba89ba;
+    border-radius: 50px;
     padding: 2px;
     text-align: center;
-    background-color: #F4DFE4;
+    background-color: rgba(200, 162, 200, .5);
 }
 
-#event-2 {
-    margin: 100px;
-    border: 3px double #ba89ba;
-    padding: 2px;
-    text-align: center;
-    background-color: #F4DFE4;
-}
-
-#event-3 {
-    margin: 100px;
-    border: 3px double #ba89ba;
-    padding: 2px;
-    text-align: center;
-    background-color: #F4DFE4;
-}
-
-#event-1 img {
+.events img {
     text-align: center;
     max-height: 500px;
     max-width: 50%;
 
 }
 
-#event-2 img {
-    text-align: center;
-    max-height: 500px;
-    max-width: 50%;
 
-}
-
-#event-1 h2 {
-    font-family: 'Lobster Two', cursive, sans-serif;
-    color: #292929;
-    letter-spacing: 2px;
-    font-size: 150%;
-}
-
-
-#event-3 img {
-    max-height: 500px;
-    max-width: 50%;
-
-}
-
-#event-1 h2 {
+.events h2 {
     font-family: 'Lobster Two', cursive, sans-serif;
     color: #292929;
     letter-spacing: 2px;
     font-size: 200%;
 }
 
-#event-2 h2 {
-    font-family: 'Lobster Two', cursive, sans-serif;
-    color: #292929;
-    letter-spacing: 2px;
-    font-size: 200%;
-}
-
-#event-3 h2 {
-    font-family: 'Lobster Two', cursive, sans-serif;
-    color: #292929;
-    letter-spacing: 2px;
-    font-size: 200%;
-}
-
-#event-1 h3 {
-    font-family: 'Lobster Two', cursive, sans-serif;
-    color: #292929;
-    letter-spacing: 2px;
-    font-size: 150%;
-}
-
-#event-2 h3 {
-    font-family: 'Lobster Two', cursive, sans-serif;
-    color: #292929;
-    letter-spacing: 2px;
-    font-size: 150%;
-}
-
-#event-3 h3 {
+.events h3 {
     font-family: 'Lobster Two', cursive, sans-serif;
     color: #292929;
     letter-spacing: 2px;
@@ -348,28 +285,17 @@ footer {
 }
 
 
-#event-1>p {
+
+.events>p {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     color: #292929;
     font-size: 140%;
 }
 
-#event-2>p {
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1px;
-    color: #292929;
-    font-size: 140%;
+.goodreads:hover {
+    color: #CA687F;
 }
-
-#event-3>p {
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1px;
-    color: #292929;
-    font-size: 140%;
-}
-
-
 
 /* Sign up form */
 
