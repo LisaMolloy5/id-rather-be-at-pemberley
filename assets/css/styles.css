@@ -26,7 +26,7 @@ a {
 
 a h1 {
     font-family: 'The Nautigal', cursive;
-    padding-top: 5px;
+    padding: 10px;
     font-size: 400%;
     text-align: center;
     color: #292929;
@@ -44,6 +44,8 @@ h2 {
 
 .css-animation {
     background-color: #D891A2;
+    width: 100%;
+    height: 70px;
     animation-name: logo;
     animation-duration: 10s;
 
@@ -124,15 +126,83 @@ h2 {
     position: absolute;
 }
 
+/* About us section */
+
+/* Flexbox guide used URL- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+#about-us-container {
+    display: inline-flex;
+    margin: 5%;
+
+}
+
+#about-us-container img {
+    height: 200px;
+    flex: 1;
+    border: #FAF0F2;
+    border-radius: 30px;
+    margin-top: 10%;
+}
+
+#flex-left {
+    text-align: left;
+    letter-spacing: 2px;
+    flex: 1;
+    padding: 2px 30px 10px 30px;
+}
+
+#flex-left h3 {
+    padding-top: 20px;
+
+}
+
+#flex-right {
+    text-align: right;
+    letter-spacing: 2px;
+    flex: 1;
+    padding: 2px 30px 2px 30px;
+
+}
+
+#flex-right h3 {
+    padding-top: 20px;
+
+}
+
 /* Currently reading section */
+
+#currently-reading{
+    display: inline-flex;
+    font-family: 'Open Sans', sans-serif;;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 130%;
+    flex-direction: column;
+    background-color: rgba(200, 162, 200, .2);
+    width: 100%;
+}
+
+#currently-reading img{
+    height: 400px;
+    flex: 1;
+    border: #FAF0F2;
+    border-radius: 30px;
+    margin: 2%;
+}
+
+#currently-reading-info{
+    margin: 1%;
+    flex: 1;
+}
+
+/*
 
 #currently-reading {
 
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 10px double rgba(200, 162, 200, .5);
     text-align: center;
-    background-color: #fbf8fb;
+    background-color: rgba(200, 162, 200, .2);
     margin: 1%;
 
 }
@@ -145,56 +215,10 @@ h2 {
 }
 
 #currently-reading img {
+    margin: 20px;
     max-width: 20%;
     background-size: 20%;
 }
-
-
-
-
-/* About us section */
-
-/* Flexbox guide used URL- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-
-#about-us-container {
-    display: inline-flex;
-    margin: 5%;
-
-}
-
-#about-us-container img{
-    height: 200px;
-    flex: 1;
-    border: #FAF0F2;
-    border-radius: 30px;
-    margin-top: 10%;
-}
-
-#flex-left{
-    text-align: left;
-    letter-spacing: 2px;
-    flex: 1;
-    padding: 2px 30px 10px 30px;
-}
-
-#flex-left h3{
-    padding-top: 20px;
-
-}
-
-#flex-right{
-    text-align: right;
-    letter-spacing: 2px;
-    flex: 1;
-    padding: 2px 30px 2px 30px;
-
-}
-
-#flex-right h3{
-    padding-top: 20px;
-
-}
-
 
 /* footer */
 
@@ -205,6 +229,7 @@ footer {
     background-color: #D891A2;
     font-family: 'Open Sans', sans-serif;
     padding: 50px 20px;
+
 }
 
 .footer-container {
@@ -214,7 +239,7 @@ footer {
 }
 
 .footer-container>ul {
-    margin-bottom: 35px;
+    margin-bottom: 10px;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
@@ -235,7 +260,7 @@ footer {
 .flex-row-2 i {
     font-size: 200%;
     padding: 0 15px;
-    margin-bottom: 16px;
+    margin-bottom: 5px;
     color: white
 }
 
@@ -243,53 +268,54 @@ footer {
 
 .title {
     border: 5px double rgba(200, 162, 200, .5);
-    margin: 2%;
+    margin-top: 15px;
+    width: 30%;
     padding: 50px;
     font-family: 'Lobster Two', cursive, sans-serif;
     letter-spacing: 2px;
-    font-size: 200%;
+    font-size: 300%;
     text-align: center;
 }
 
-#event-1{
-    margin: 150px;
+#event-1 {
+    margin: 100px;
     border: 3px double #ba89ba;
     padding: 2px;
     text-align: center;
     background-color: #F4DFE4;
 }
 
-#event-2{
-    margin: 150px;
+#event-2 {
+    margin: 100px;
     border: 3px double #ba89ba;
     padding: 2px;
     text-align: center;
     background-color: #F4DFE4;
 }
 
-#event-3{
-    margin: 150px;
+#event-3 {
+    margin: 100px;
     border: 3px double #ba89ba;
     padding: 2px;
     text-align: center;
     background-color: #F4DFE4;
 }
 
-#event-1 img{
+#event-1 img {
     text-align: center;
     max-height: 500px;
     max-width: 50%;
 
 }
 
-#event-2 img{
+#event-2 img {
     text-align: center;
     max-height: 500px;
     max-width: 50%;
 
 }
 
-#event-1 h2{
+#event-1 h2 {
     font-family: 'Lobster Two', cursive, sans-serif;
     color: #292929;
     letter-spacing: 2px;
@@ -297,48 +323,48 @@ footer {
 }
 
 
-#event-3 img{
+#event-3 img {
     max-height: 500px;
     max-width: 50%;
 
 }
 
-#event-1 h2{
+#event-1 h2 {
     font-family: 'Lobster Two', cursive, sans-serif;
     color: #292929;
     letter-spacing: 2px;
     font-size: 200%;
 }
 
-#event-2 h2{
+#event-2 h2 {
     font-family: 'Lobster Two', cursive, sans-serif;
     color: #292929;
     letter-spacing: 2px;
     font-size: 200%;
 }
 
-#event-3 h2{
+#event-3 h2 {
     font-family: 'Lobster Two', cursive, sans-serif;
     color: #292929;
     letter-spacing: 2px;
     font-size: 200%;
 }
 
-#event-1 h3{
+#event-1 h3 {
     font-family: 'Lobster Two', cursive, sans-serif;
     color: #292929;
     letter-spacing: 2px;
     font-size: 150%;
 }
 
-#event-2 h3{
+#event-2 h3 {
     font-family: 'Lobster Two', cursive, sans-serif;
     color: #292929;
     letter-spacing: 2px;
     font-size: 150%;
 }
 
-#event-3 h3{
+#event-3 h3 {
     font-family: 'Lobster Two', cursive, sans-serif;
     color: #292929;
     letter-spacing: 2px;
@@ -346,21 +372,21 @@ footer {
 }
 
 
-#event-1 > p{
+#event-1>p {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     color: #292929;
     font-size: 140%;
 }
 
-#event-2 > p{
+#event-2>p {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     color: #292929;
     font-size: 140%;
 }
 
-#event-3 > p{
+#event-3>p {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     color: #292929;
