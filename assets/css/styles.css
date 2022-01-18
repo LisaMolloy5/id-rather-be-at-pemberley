@@ -61,7 +61,7 @@ h2 {
     }
 
     to {
-        background-color: #CA687F;
+        background-color: #D891A2;
     }
 
 }
@@ -70,9 +70,18 @@ h2 {
 
 /* horizontal navigation inspiration url - https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/ */
 
+.active{
+    border: 2px solid #fafafa;
+    background-color: #E2ACB9;
+    border-radius: 30px;
+}
+
+.menu:hover{
+    color: #fafafa;
+}
 .nav {
-    border: 4px double #D891A2;
-    background-color: #F4DFE4;
+
+    background-color: rgba(200, 162, 200, .5);
     list-style-type: none;
     text-align: center;
     margin: 0;
@@ -93,6 +102,7 @@ h2 {
     text-decoration: none;
     color: #292929;
 }
+
 
 /* Welcome section */
 
@@ -243,7 +253,10 @@ footer {
 /* Events */
 
 .title {
-    border: 5px double rgba(200, 162, 200, .5);
+    border: 2px solid #fafafa;
+    background-color: #E2ACB9;
+    border-radius: 60px;
+    color: #fafafa;
     margin-top: 15px;
     width: 30%;
     padding: 50px;
@@ -355,24 +368,3 @@ footer {
     color: #CA687F;
 }
 
-
-
-/*
-
-.form-section {
-    clear: both;
-    text-align: center;
-    background-color: #fbf8fb;
-    background-size: cover;
-    height: 500px;
-}
-
-.signup-form {
-    text-align: center;
-    margin: 150px 10% 0 0;
-    color: #8C344A;
-    background-color: rgba(200, 162, 200, .2);
-    max-width: 400px;
-    left: 40%;
-    padding: 30px;
-}
