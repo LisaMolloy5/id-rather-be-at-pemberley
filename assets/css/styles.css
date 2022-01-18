@@ -195,30 +195,6 @@ h2 {
     flex: 1;
 }
 
-/*
-
-#currently-reading {
-
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    background-color: rgba(200, 162, 200, .2);
-    margin: 1%;
-
-}
-
-#currently-reading h1 {
-    font-family: 'Lobster Two', cursive, sans-serif;
-    font-size: 200%;
-    color: #8C344A;
-    padding-bottom: 10px;
-}
-
-#currently-reading img {
-    margin: 20px;
-    max-width: 20%;
-    background-size: 20%;
-}
 
 /* footer */
 
@@ -399,17 +375,18 @@ footer {
 
 .form-section {
     clear: both;
+    text-align: center;
     background-color: #fbf8fb;
     background-size: cover;
     height: 500px;
 }
 
 .signup-form {
+    text-align: center;
     margin: 150px 10% 0 0;
     color: #8C344A;
     background-color: rgba(200, 162, 200, .2);
     max-width: 400px;
-    position: absolute;
     left: 40%;
     padding: 30px;
 }
