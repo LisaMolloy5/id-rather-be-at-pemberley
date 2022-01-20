@@ -113,7 +113,7 @@ h2 {
     padding-bottom: 10px;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url('../images/sixteen-miles-out-SvbDNnbipj0-unsplash.jpg');
+    background-image: url('../images/pexels-olya-kobruseva-6906620.jpg');
 }
 
 #cover-text h2 {
@@ -130,8 +130,8 @@ h2 {
 
     background-color: rgba(200, 162, 200, .5);
 
-    bottom: 100px;
-    right: 150px;
+    top: 100px;
+    left: 150px;
 
     position: absolute;
 }
@@ -254,31 +254,79 @@ footer {
 
 .title {
     border: 2px solid #fafafa;
-    background-color: #E2ACB9;
     border-radius: 60px;
-    color: #fafafa;
-    margin-top: 15px;
+
     width: 30%;
+
+    background-color: #E2ACB9;
+    color: #fafafa;
+
+    margin-top: 15px;
+    
     padding: 50px;
+
     font-family: 'Lobster Two', cursive, sans-serif;
     letter-spacing: 2px;
     font-size: 300%;
     text-align: center;
 }
 
-.events {
-    margin: 100px 500px 100px 500px;
-    padding: 2px;
+#events-image {
+
+    height: 400px;
+    width: 100%;
+    position: relative;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('../images/pexels-olya-kobruseva-6906612.jpg');
+}
+
+#events-text h2 {
+
+    color: #fef4fe;
+
+    font-size: 200%;
+    font-family: 'Lobster Two', cursive, sans-serif;
+    letter-spacing: 4px;
     text-align: center;
-    background-color: rgba(200, 162, 200, .5);
+
+    width: 300px;
+    height: 80px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    border: rgba(200, 162, 200, .5);
+    border-radius: 50px;
+
+    background-color: #D891A2;
+
+    top: 100px;
+    left: 150px;
+
+    position: absolute;
+}
+
+
+.events {
+    margin: 100px;
+    padding: 2px;
+
+    text-align: center;
+
+    background-color: rgba(200, 162, 200, .2);
+
     border: rgba(200, 162, 200, .5);
     border-radius: 30px;
 }
 
 .events img {
     text-align: center;
+
     max-height: 500px;
     max-width: 50%;
+
     padding: 10px;
 
 }
@@ -378,103 +426,89 @@ footer {
 
 /* Media Queries */
 
-/*For larger to medium screen sizes from 1600px wide and down */
-@media screen and (max-width:1600px) {
-    .events{
-        margin: 100px;
+/* For medium screen sizes from 900px wide and down */
+@media screen and (max-width:930px) {
+
+    #welcome-image{
+         height: 400px;
+    }
+   
+    #cover-text h2{
+        bottom: 50px;
+    }
+
+    .title{
+        width: 30%;
+    }
+
+    #about-us-container{
+        flex-direction: column;
+        text-align: center;
     }
     
-}
-
-
-
-/* For small screen sizes from 800px wide and down */
-@media  screen and (max-width:800px) {
-    #welcome-image {
-        height: 400px;
-    }
-    #cover-text h2 {
-        bottom: 30px;
-        right: 20px;
-    }
-
-    #about-us-container {
-        flex-direction: column;
-    }
-
     #flex-left {
         text-align: center;
+
     }
 
     #flex-right {
         text-align: center;
     }
-    
-    #about-us-container img{
-        margin: 5px 30%;
-    }
-
-    ##currently-reading{
-        font-size: 100%;
-    }
 }
 
-/* For small screen sizes from 600px wide and down */
-@media screen and (max-width:600px) {
-    .css-animation{
-        height: 50px;
-    }
+/* For medium screen sizes from 670px wide and down */
+@media screen and (max-width:670px) {
+
     a h1{
-        font-size: 230%;
+        font-size: 300%;
+    }
+    
+    #welcome-image{
+         height: 300px;
+    }
+
+
+    .title{
+        width: 50%;
+    }
+
+    .events{
+        margin: 50px;
+    }
+
+    
+}
+
+/* For medium screen sizes from 350px wide and down */
+@media screen and (max-width:350px) {
+
+    a h1{
+        font-size: 220%;
+        padding-top: 10px
+    }
+
+    .nav{
+        padding: 10%;
     }
 
     #welcome-image{
         height: 200px;
     }
 
-    #cover-text h2{
-        font-size: 80%;
-        width: 200px;
-        height: 120px;
-    }
-
     .title{
-        width: 50%;
-        font-size: 200%;
+        font-size: 150%;
     }
 
-    #about-us-container img{
-        margin: 0 15%;
-    }
-
-    #currently-reading img {
-        height: 300px;
+    #currently-reading img{
+        width: 100%;
     }
 
     .events{
-        margin: 15px;
+        margin: 20px;
     }
 
     .events img{
         max-height: 200px;
         max-width: 100%;
     }
-}
-
-/* For small screen sizes from 000px wide and down */
-@media screen and (max-width: 500px) {
-    .nav {
-        padding: 0 15%;
-    }
-
-
-}
-
-/* For small screen sizes from 350px wide and down */
-@media screen and (max-width: 350px) {
-    .nav {
-        padding: 0 10%;
-    }
-
-
 }
