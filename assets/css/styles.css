@@ -15,7 +15,7 @@ body {
 }
 
 hr {
-    border-top: 20px solid #FAFFCD;
+    border-top: 2px solid rgba(200, 162, 200, .5);
 }
 
 /* heading and logo */
@@ -267,34 +267,37 @@ footer {
 }
 
 .events {
-    margin: 200px;
-    border: 3px double #ba89ba;
-    border-radius: 50px;
+    margin: 100px 500px 100px 500px;
     padding: 2px;
     text-align: center;
     background-color: rgba(200, 162, 200, .5);
+    border: rgba(200, 162, 200, .5);
+    border-radius: 30px;
 }
 
 .events img {
     text-align: center;
     max-height: 500px;
     max-width: 50%;
+    padding: 10px;
 
 }
 
 
 .events h2 {
-    font-family: 'Lobster Two', cursive, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #292929;
     letter-spacing: 2px;
     font-size: 200%;
+    padding: 2px;
 }
 
 .events h3 {
-    font-family: 'Lobster Two', cursive, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #292929;
     letter-spacing: 2px;
     font-size: 150%;
+    padding: 2px;
 }
 
 
@@ -304,6 +307,10 @@ footer {
     letter-spacing: 1px;
     color: #292929;
     font-size: 140%;
+}
+
+.goodreads h3{
+    font-family: 'Lobster Two', cursive, sans-serif;
 }
 
 .goodreads:hover {
@@ -368,3 +375,49 @@ footer {
     color: #CA687F;
 }
 
+
+/* Media Queries */
+
+/*For larger to medium screen sizes from 1600px wide and down */
+@media screen and (max-width:1600px) {
+    .events{
+        margin: 100px;
+    }
+    
+}
+
+/* For medium screen sizes from 1000px wide and down */
+@media screen and (max-width:1000px) {
+    
+    #cover-text h2{
+        bottom: 200px;
+
+    }
+}
+
+/* For small screen sizes from 800px wide and down */
+@media  screen and (max-width:800px) {
+    #welcome-image {
+        height: 400px;
+    }
+    #cover-text h2 {
+        bottom: 30px;
+        right: 20px;
+    }
+
+    #about-us-container {
+        flex-direction: column;
+    }
+
+    #flex-left {
+        text-align: center;
+    }
+
+    #flex-right {
+        text-align: center;
+    }
+    
+    #about-us-container img{
+        margin: 5px 30%;
+    }
+}
