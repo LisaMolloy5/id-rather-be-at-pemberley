@@ -386,14 +386,7 @@ footer {
     
 }
 
-/* For medium screen sizes from 1000px wide and down */
-@media screen and (max-width:1000px) {
-    
-    #cover-text h2{
-        bottom: 200px;
 
-    }
-}
 
 /* For small screen sizes from 800px wide and down */
 @media  screen and (max-width:800px) {
@@ -420,19 +413,19 @@ footer {
     #about-us-container img{
         margin: 5px 30%;
     }
+
+    ##currently-reading{
+        font-size: 100%;
+    }
 }
 
-/* For small screen sizes from 350px wide and down */
-@media screen and (max-width:350px) {
+/* For small screen sizes from 600px wide and down */
+@media screen and (max-width:600px) {
     .css-animation{
         height: 50px;
     }
     a h1{
         font-size: 230%;
-    }
-
-    .nav {
-        padding: 10%;
     }
 
     #welcome-image{
@@ -451,7 +444,7 @@ footer {
     }
 
     #about-us-container img{
-        margin: 5px 2.5%;
+        margin: 0 15%;
     }
 
     #currently-reading img {
@@ -466,4 +459,22 @@ footer {
         max-height: 200px;
         max-width: 100%;
     }
+}
+
+/* For small screen sizes from 000px wide and down */
+@media screen and (max-width: 500px) {
+    .nav {
+        padding: 0 15%;
+    }
+
+
+}
+
+/* For small screen sizes from 350px wide and down */
+@media screen and (max-width: 350px) {
+    .nav {
+        padding: 0 10%;
+    }
+
+
 }
