@@ -70,15 +70,16 @@ h2 {
 
 /* horizontal navigation inspiration url - https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/ */
 
-.active{
+.active {
     border: 2px solid #fafafa;
     background-color: #E2ACB9;
     border-radius: 30px;
 }
 
-.menu:hover{
+.menu:hover {
     color: #fafafa;
 }
+
 .nav {
 
     background-color: rgba(200, 162, 200, .5);
@@ -107,7 +108,7 @@ h2 {
 /* Welcome section */
 
 #welcome-image {
-    height: 600px;
+    height: 300px;
     width: 100%;
     position: relative;
     padding-bottom: 10px;
@@ -185,9 +186,10 @@ h2 {
 
 /* Currently reading section */
 
-#currently-reading{
+#currently-reading {
     display: inline-flex;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+    ;
     text-transform: uppercase;
     text-align: center;
     font-size: 130%;
@@ -196,7 +198,7 @@ h2 {
     width: 100%;
 }
 
-#currently-reading img{
+#currently-reading img {
     height: 400px;
     flex: 1;
     border: #FAF0F2;
@@ -204,7 +206,7 @@ h2 {
     margin: 2%;
 }
 
-#currently-reading-info{
+#currently-reading-info {
     margin: 1%;
     flex: 1;
 }
@@ -266,7 +268,7 @@ footer {
     color: #fafafa;
 
     margin-top: 15px;
-    
+
     padding: 50px;
 
     font-family: 'Lobster Two', cursive, sans-serif;
@@ -338,7 +340,7 @@ footer {
 
 .events h2 {
     font-family: 'Open Sans', sans-serif;
-    color:  #CA687F;
+    color: #CA687F;
     letter-spacing: 2px;
     font-size: 200%;
     padding: 2px;
@@ -361,7 +363,7 @@ footer {
     font-size: 140%;
 }
 
-.goodreads h3{
+.goodreads h3 {
     font-family: 'Lobster Two', cursive, sans-serif;
 }
 
@@ -379,140 +381,143 @@ footer {
     height: 900px;
 }
 
-.signup-form{
+.signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
     border: 2px solid rgba(200, 162, 200, 1);
     border-radius: 30px;
     background-color: rgba(200, 162, 200, 1);
-    max-width:400px;
-    position:absolute;
+    max-width: 400px;
+    position: absolute;
     left: 10%;
     padding: 30px;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: #fafafa;
     font-size: 200%;
     margin-bottom: 20px;
 }
 
-.text-input{
+.text-input {
     background: transparent;
     color: #fafafa;
-    width:100%;
-    height:25px;
+    width: 100%;
+    height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
 
-.text-input:hover{
+.text-input:hover {
     border-color: #CA687F;
 }
 
-.join-button{
+.join-button {
     margin-top: 20px;
-    border-radius:2px;
+    border-radius: 2px;
     padding: 15px 32px 15px 32px;
-    text-align:center;
+    text-align: center;
     font-size: 100%;
     background-color: #CA687F;
     color: #fafafa;
     display: block;
 }
 
-.join-button:hover{
-    background-color:#fafafa;
+.join-button:hover {
+    background-color: #fafafa;
     color: #CA687F;
 }
 
 
 /* Media Queries */
 
-/* For medium screen sizes from 900px wide and down */
-@media screen and (max-width:930px) {
-
-    #welcome-image{
-         height: 400px;
-    }
-   
+/* For screens sizes 1100 wide and down */
+@media screen and (max-width: 1100px){
     #cover-text h2{
-        bottom: 50px;
+        top: 50px;
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #welcome-image{
+        height: 200px;
     }
 
-    .title{
-        width: 30%;
+    #cover-text h2{
+        top: 20px;
+        left: 10px;
     }
 
     #about-us-container{
         flex-direction: column;
         text-align: center;
     }
-    
-    #flex-left {
-        text-align: center;
-
-    }
-
-    #flex-right {
-        text-align: center;
-    }
-}
-
-/* For medium screen sizes from 670px wide and down */
-@media screen and (max-width:670px) {
-
-    a h1{
-        font-size: 300%;
-    }
-    
-    #welcome-image{
-         height: 300px;
-    }
-
 
     .title{
-        width: 50%;
+        width: auto;
     }
 
-    .events{
-        margin: 50px;
+    #flex-left{
+        text-align: center;
     }
 
-    
+    #flex-right{
+        text-align: center;
+    }
+
 }
 
-/* For medium screen sizes from 350px wide and down */
-@media screen and (max-width:350px) {
+@media screen and (max-width: 750px){
+    #cover-text h2{
+        height: 120px;
+    }
+}
 
+@media screen and (max-width: 660px){
     a h1{
-        font-size: 220%;
-        padding-top: 10px
+        font-size: 270%;
+    }
+
+    #welcome-image{
+        height: 150px;
+    }
+    #cover-text h2{
+        height: 80px;
+        font-size: 80%;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .nav{
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    a h1{
+        font-size: 200%;
+
     }
 
     .nav{
-        padding: 10%;
+        padding: 0 20% ;
     }
 
     #welcome-image{
-        height: 200px;
+        height: 100px;
     }
 
-    .title{
-        font-size: 150%;
+    #cover-text h2{
+        height: 40px;
+        font-size: 50%;
+        padding-top: 10px;
     }
 
-    #currently-reading img{
-        width: 100%;
-    }
-
-    .events{
-        margin: 20px;
-    }
-
-    .events img{
-        max-height: 200px;
-        max-width: 100%;
-    }
 }
+
+
+
+
