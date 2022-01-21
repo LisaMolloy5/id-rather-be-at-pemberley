@@ -186,15 +186,22 @@ h2 {
 
 /* Currently reading section */
 
+/* Code for shadow box css effect URL- https://www.w3schools.com/csS/css3_shadows_box.asp */
+
 #currently-reading {
     display: inline-flex;
+
     font-family: 'Open Sans', sans-serif;
-    ;
     text-transform: uppercase;
     text-align: center;
     font-size: 130%;
+
     flex-direction: column;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     background-color: rgba(200, 162, 200, .2);
+
     width: 100%;
 }
 
@@ -277,12 +284,15 @@ footer {
     text-align: center;
 }
 
-#events-image {
+#events-welcome-image {
 
     height: 400px;
     width: 100%;
+
     position: relative;
+
     padding-bottom: 10px;
+
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url('../images/pexels-olya-kobruseva-6906612.jpg');
@@ -321,6 +331,8 @@ footer {
 
     text-align: center;
 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     background-color: rgba(200, 162, 200, .2);
 
     border: rgba(200, 162, 200, .5);
@@ -334,6 +346,8 @@ footer {
     max-width: 50%;
 
     padding: 10px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -382,15 +396,24 @@ footer {
 }
 
 .signup-form {
+
+    padding: 30px;
     margin: 150px 10% 0 0;
+
     color: #fff;
+
     border: 2px solid rgba(200, 162, 200, 1);
     border-radius: 30px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     background-color: rgba(200, 162, 200, 1);
+
     max-width: 400px;
+
     position: absolute;
     left: 10%;
-    padding: 30px;
+    
 }
 
 .signup-form>h2 {
@@ -440,6 +463,8 @@ footer {
     }
 }
 
+
+/* For screen sizes 900px wide and down */
 @media screen and (max-width: 900px){
     #welcome-image{
         height: 200px;
@@ -469,12 +494,22 @@ footer {
 
 }
 
+/* For screen sizes 750px wide and down*/
+
 @media screen and (max-width: 750px){
     #cover-text h2{
         height: 120px;
     }
+
+    
+     #events-welcome-image{
+         height: 250px;
+     }
+
 }
 
+
+/* For media screens sizes 660px wide and down*/
 @media screen and (max-width: 660px){
     a h1{
         font-size: 270%;
@@ -488,14 +523,39 @@ footer {
         font-size: 80%;
         padding-top: 20px;
     }
+
+    #events-welcome-image {
+        height: 200px;
+    }
+
+    #events-text h2 {
+        top: 50px;
+        left: 20px;
+
+    }
+
+    .events{
+        margin: 40px;
+    }
 }
 
+/* For screen sizes 470px wide */
 @media screen and (max-width: 470px){
     .nav{
         font-size: 70%;
     }
+
+    .events img{
+        max-width: 70%;
+    }
+
+    .events{
+        margin: 30px;
+    }
+
 }
 
+/* For screen sizes 420px */
 @media screen and (max-width: 420px){
     a h1{
         font-size: 200%;
@@ -514,6 +574,30 @@ footer {
         height: 40px;
         font-size: 50%;
         padding-top: 10px;
+    }
+
+    #events-welcome-image {
+        height: 200px;
+    }
+
+    #events-text h2{
+        top: 10px;
+        left: 0px;
+
+        padding-top: 15px;
+
+        font-size: 150%;
+
+        height: 50px;
+
+    }
+
+    .events{
+        margin: 20px;
+    }
+
+    .events img{
+        max-width: 70%;
     }
 
 }

@@ -31,6 +31,8 @@ wireframes
 
 [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
+[CSS Box Shadow](https://www.w3schools.com/csS/css3_shadows_box.asp)
+
 ---
 
 # Deployment
