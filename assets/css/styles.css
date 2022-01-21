@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Open+Sans&family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 100;
     color: #292929;
     background-color: #fef4fe;
@@ -25,7 +25,7 @@ a {
 }
 
 a h1 {
-    font-family: 'The Nautigal', cursive, sans-serif;
+    font-family: 'Great Vibes', cursive, sans-serif;
     padding: 10px;
     font-size: 400%;
     text-align: center;
@@ -34,7 +34,7 @@ a h1 {
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     margin: auto;
 }
@@ -83,14 +83,17 @@ h2 {
 .nav {
 
     background-color: rgba(200, 162, 200, .5);
+
     list-style-type: none;
+
     text-align: center;
+
     margin: 0;
     padding: 0;
 }
 
 .nav li {
-    font-family: 'Lobster Two', cursive, sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #292929;
     display: inline;
     font-size: 150%;
@@ -99,19 +102,23 @@ h2 {
 
 .nav a {
     display: inline-block;
+
     padding: 5px 50px 5px 50px;
-    text-decoration: none;
+
+    text-decoration: none;    
     color: #292929;
 }
-
 
 /* Welcome section */
 
 #welcome-image {
     height: 300px;
     width: 100%;
+
     position: relative;
+
     padding-bottom: 10px;
+
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url('../images/pexels-olya-kobruseva-6906620.jpg');
@@ -119,7 +126,7 @@ h2 {
 
 #cover-text h2 {
     font-size: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;
     text-align: center;
     color: #fef4fe;
@@ -147,15 +154,19 @@ h2 {
 
 #about-us-container {
     display: inline-flex;
+
     margin: 5%;
 
 }
 
 #about-us-container img {
     height: 200px;
+
     flex: 1;
+
     border: #FAF0F2;
     border-radius: 30px;
+
     margin-top: 10%;
 }
 
@@ -174,7 +185,9 @@ h2 {
 #flex-right {
     text-align: right;
     letter-spacing: 2px;
+
     flex: 1;
+
     padding: 2px 30px 2px 30px;
 
 }
@@ -191,7 +204,7 @@ h2 {
 #currently-reading {
     display: inline-flex;
 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     text-align: center;
     font-size: 130%;
@@ -207,14 +220,18 @@ h2 {
 
 #currently-reading img {
     height: 400px;
+
     flex: 1;
+
     border: #FAF0F2;
     border-radius: 30px;
+
     margin: 2%;
 }
 
 #currently-reading-info {
     margin: 1%;
+
     flex: 1;
 }
 
@@ -225,8 +242,11 @@ h2 {
 
 footer {
     color: white;
+
     background-color: #D891A2;
-    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+
     padding: 50px 20px;
 
 }
@@ -234,13 +254,17 @@ footer {
 .footer-container {
     display: flex;
     flex-direction: column;
+
     align-items: center;
 }
 
 .footer-container>ul {
     margin-bottom: 10px;
+
     flex-wrap: wrap;
+
     justify-content: center;
+
     list-style: none;
 
 }
@@ -248,18 +272,22 @@ footer {
 .flex-row-1 li {
     text-align: center;
     letter-spacing: 2px;
+
     padding: 2px 1px;
 }
 
 .flex-row-2>li {
     display: inline;
+
     padding: 2px 1px;
 }
 
 .flex-row-2 i {
     font-size: 200%;
+
     padding: 0 15px;
     margin-bottom: 5px;
+
     color: white
 }
 
@@ -278,8 +306,8 @@ footer {
 
     padding: 50px;
 
-    font-family: 'Lobster Two', cursive, sans-serif;
-    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 4px;
     font-size: 300%;
     text-align: center;
 }
@@ -303,14 +331,13 @@ footer {
     color: #fef4fe;
 
     font-size: 200%;
-    font-family: 'Lobster Two', cursive, sans-serif;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 4px;
     text-align: center;
 
     width: 300px;
     height: 80px;
 
-    padding-top: 40px;
     padding-left: 10px;
 
     border: rgba(200, 162, 200, .5);
@@ -353,32 +380,38 @@ footer {
 
 
 .events h2 {
-    font-family: 'Open Sans', sans-serif;
-    color: #CA687F;
+    font-family: 'Raleway', sans-serif;;
     letter-spacing: 2px;
     font-size: 200%;
+
+    color: #CA687F;
+
     padding: 2px;
 }
 
 .events h3 {
-    font-family: 'Open Sans', sans-serif;
-    color: #292929;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;
     font-size: 150%;
+
+    color: #292929;
+
     padding: 2px;
 }
 
 
 
 .events>p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;;
     letter-spacing: 1px;
+    font-size: 140%; 
+
     color: #292929;
-    font-size: 140%;
 }
 
-.goodreads h3 {
-    font-family: 'Lobster Two', cursive, sans-serif;
+.goodreads  {
+    font-family: 'Raleway', sans-serif;
+    font-size: 200%;
 }
 
 .goodreads:hover {
@@ -389,9 +422,11 @@ footer {
 
 .form-section {
     clear: left;
+
     background: url('../images/pexels-olya-kobruseva-6906638.jpg');
     background-size: cover;
     background-position: center;
+
     height: 900px;
 }
 
@@ -418,16 +453,22 @@ footer {
 
 .signup-form>h2 {
     color: #fafafa;
+
     font-size: 200%;
+
     margin-bottom: 20px;
 }
 
 .text-input {
     background: transparent;
+
     color: #fafafa;
+
     width: 100%;
     height: 25px;
+
     margin: 5px 0 20px 0;
+
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
@@ -438,12 +479,18 @@ footer {
 
 .join-button {
     margin-top: 20px;
-    border-radius: 2px;
+    
+    border: 2px solid #CA687F;
+    border-radius: 30px;
+
     padding: 15px 32px 15px 32px;
+
     text-align: center;
     font-size: 100%;
+
     background-color: #CA687F;
     color: #fafafa;
+
     display: block;
 }
 
@@ -497,6 +544,10 @@ footer {
 /* For screen sizes 750px wide and down*/
 
 @media screen and (max-width: 750px){
+    a h1{
+        font-size: 300%;
+    }
+
     #cover-text h2{
         height: 120px;
     }
@@ -511,9 +562,6 @@ footer {
 
 /* For media screens sizes 660px wide and down*/
 @media screen and (max-width: 660px){
-    a h1{
-        font-size: 270%;
-    }
 
     #welcome-image{
         height: 150px;
@@ -539,6 +587,17 @@ footer {
     }
 }
 
+/* For media screen sizes 550px */
+@media screen and (max-width: 550px){
+    a h1{
+        font-size: 200%;
+    }
+
+    .title{
+        font-size: 160%;
+    }
+}
+
 /* For screen sizes 470px wide */
 @media screen and (max-width: 470px){
     .nav{
@@ -558,7 +617,7 @@ footer {
 /* For screen sizes 420px */
 @media screen and (max-width: 420px){
     a h1{
-        font-size: 200%;
+        font-size: 180%;
 
     }
 
