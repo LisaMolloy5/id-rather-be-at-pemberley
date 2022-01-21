@@ -25,7 +25,7 @@ a {
 }
 
 a h1 {
-    font-family: 'The Nautigal', cursive;
+    font-family: 'The Nautigal', cursive, sans-serif;
     padding: 10px;
     font-size: 400%;
     text-align: center;
@@ -272,7 +272,7 @@ footer {
     width: 30%;
 
     background-color: #E2ACB9;
-    color: #fafafa;
+    color: #fef4fe;
 
     margin-top: 15px;
 
