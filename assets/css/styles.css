@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans&display=swap');
 
 * {
     margin: 0;
@@ -26,7 +25,7 @@ a {
 }
 
 a h1 {
-    font-family: 'Great Vibes', cursive, sans-serif;
+    font-family: 'Allura', cursive;
     padding: 10px;
     font-size: 400%;
     text-align: center;
@@ -35,7 +34,7 @@ a h1 {
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans' , sans-serif;
     text-align: center;
     margin: auto;
 }
@@ -58,10 +57,6 @@ h2 {
     }
 
     to {
-        background-color: #E2ACB9;
-    }
-
-    to {
         background-color: #D891A2;
     }
 
@@ -72,7 +67,7 @@ h2 {
 /* horizontal navigation inspiration url - https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/ */
 
 .active {
-    border: 2px solid #fafafa;
+    border: 2px solid #fef4fe;
     background-color: #E2ACB9;
     border-radius: 30px;
 }
@@ -95,9 +90,14 @@ h2 {
 
 .nav li {
     font-family: 'Open Sans', sans-serif;
-    color: #292929;
-    display: inline;
+    font-weight: 500;
     font-size: 150%;
+
+    color: #292929;
+
+    display: inline;
+
+    
 }
 
 
@@ -112,8 +112,8 @@ h2 {
 
 /* Welcome section */
 
-#welcome-image {
-    height: 300px;
+#home-welcome-image {
+    height: 400px;
     width: 100%;
 
     position: relative;
@@ -122,36 +122,27 @@ h2 {
 
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url('../images/homewelcomeimage.jpg');
-}
-
-#cover-text h2 {
-    font-size: 100%;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 2px;
-    text-align: center;
-    color: #fef4fe;
-
-    border: rgba(200, 162, 200, .5);
-    border-radius: 50px;
-
-    width: 300px;
-    height: 150px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(200, 162, 200, 1);
-
-    top: 100px;
-    left: 150px;
-
-    position: absolute;
+    background-image: url('../images/welcomeimage.jpg');
 }
 
 /* About us section */
 
 /* Flexbox guide used URL- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+.title{
+    font-family: 'Allura', cursive;
+    font-size: 300%;
+    letter-spacing: 5px;
+
+    color: #292929;
+
+
+    border: 2px double rgba(200, 162, 200, .5);
+
+    width: 50%;
+
+    margin: 20px 25%;
+}
 
 #about-us-container {
     display: inline-flex;
@@ -174,7 +165,9 @@ h2 {
 #flex-left {
     text-align: left;
     letter-spacing: 2px;
+  
     flex: 1;
+
     padding: 2px 30px 10px 30px;
 }
 
@@ -206,9 +199,8 @@ h2 {
     display: inline-flex;
 
     font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
     text-align: center;
-    font-size: 130%;
+
 
     flex-direction: column;
 
@@ -218,6 +210,8 @@ h2 {
 
     width: 100%;
 }
+
+  
 
 #currently-reading img {
     height: 400px;
@@ -294,28 +288,8 @@ footer {
 
 /* Events */
 
-.title {
-    border: 2px solid #fafafa;
-    border-radius: 60px;
-
-    width: 30%;
-
-    background-color: #E2ACB9;
-    color: #fef4fe;
-
-    margin-top: 15px;
-
-    padding: 50px;
-
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 4px;
-    font-size: 300%;
-    text-align: center;
-}
-
-#events-welcome-image {
-
-    height: 300px;
+#events-welcome-image{
+    height: 400px;
     width: 100%;
 
     position: relative;
@@ -324,37 +298,11 @@ footer {
 
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url('../images/eventsheroimage.jpg');
+    background-image: url('../images/eventswelcomimage.jpg');
 }
-
-#events-text h2 {
-
-    color: #fef4fe;
-
-    font-size: 200%;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 4px;
-    text-align: center;
-
-    width: 300px;
-    height: 80px;
-
-    padding-left: 10px;
-
-    border: rgba(200, 162, 200, .5);
-    border-radius: 50px;
-
-    background-color: rgba(200, 162, 200, 1);
-
-    top: 100px;
-    left: 150px;
-
-    position: absolute;
-}
-
 
 .events {
-    margin: 100px;
+    margin: 100px 200px;
     padding: 2px;
 
     text-align: center;
@@ -436,7 +384,7 @@ footer {
     padding: 30px;
     margin: 150px 10% 0 0;
 
-    color: #fff;
+    color: white;
 
     border: 2px solid rgba(200, 162, 200, 1);
     border-radius: 30px;
@@ -453,7 +401,7 @@ footer {
 }
 
 .signup-form>h2 {
-    color: #fafafa;
+    color: #fef4fe;
 
     font-size: 200%;
 
@@ -463,7 +411,7 @@ footer {
 .text-input {
     background: transparent;
 
-    color: #fafafa;
+    color: #fef4fe;
 
     width: 100%;
     height: 25px;
@@ -490,13 +438,13 @@ footer {
     font-size: 100%;
 
     background-color: #CA687F;
-    color: #fafafa;
+    color: #fef4fe;
 
     display: block;
 }
 
 .join-button:hover {
-    background-color: #fafafa;
+    background-color: #fef4fe;
     color: #CA687F;
 }
 
