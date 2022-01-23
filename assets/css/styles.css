@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +9,7 @@
 
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     color: #292929;
     background-color: #fef4fe;
@@ -34,7 +35,7 @@ a h1 {
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin: auto;
 }
@@ -93,7 +94,7 @@ h2 {
 }
 
 .nav li {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #292929;
     display: inline;
     font-size: 150%;
@@ -121,12 +122,12 @@ h2 {
 
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url('../images/pexels-olya-kobruseva-6906620.jpg');
+    background-image: url('../images/homewelcomeimage.jpg');
 }
 
 #cover-text h2 {
     font-size: 100%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
     text-align: center;
     color: #fef4fe;
@@ -204,7 +205,7 @@ h2 {
 #currently-reading {
     display: inline-flex;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: center;
     font-size: 130%;
@@ -245,7 +246,7 @@ footer {
 
     background-color: #D891A2;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
     padding: 50px 20px;
 
@@ -306,7 +307,7 @@ footer {
 
     padding: 50px;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 4px;
     font-size: 300%;
     text-align: center;
@@ -314,7 +315,7 @@ footer {
 
 #events-welcome-image {
 
-    height: 400px;
+    height: 300px;
     width: 100%;
 
     position: relative;
@@ -323,7 +324,7 @@ footer {
 
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url('../images/pexels-olya-kobruseva-6906612.jpg');
+    background-image: url('../images/eventsheroimage.jpg');
 }
 
 #events-text h2 {
@@ -331,7 +332,7 @@ footer {
     color: #fef4fe;
 
     font-size: 200%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 4px;
     text-align: center;
 
@@ -380,7 +381,7 @@ footer {
 
 
 .events h2 {
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
     font-size: 200%;
 
@@ -390,7 +391,7 @@ footer {
 }
 
 .events h3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
     font-size: 150%;
 
@@ -402,7 +403,7 @@ footer {
 
 
 .events>p {
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     font-size: 140%; 
 
@@ -410,7 +411,7 @@ footer {
 }
 
 .goodreads  {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 200%;
 }
 
@@ -423,7 +424,7 @@ footer {
 .form-section {
     clear: left;
 
-    background: url('../images/pexels-olya-kobruseva-6906638.jpg');
+    background: url('../images/joincoverimage.jpg');
     background-size: cover;
     background-position: center;
 
@@ -593,9 +594,14 @@ footer {
         font-size: 200%;
     }
 
+    .nav{
+        padding: 0 110px;
+    }
+
     .title{
         font-size: 160%;
     }
+
 }
 
 /* For screen sizes 470px wide */
@@ -627,6 +633,11 @@ footer {
 
     #welcome-image{
         height: 100px;
+    }
+
+    #currently-reading img{
+        width: 100%;
+        height: 300px;
     }
 
     #cover-text h2{
