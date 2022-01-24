@@ -25,7 +25,9 @@ I'd Rather Be At Pemberley is a website for an online book club that meets once 
 ### Design
 ---
 #### Colour Scheme
-The colour scheme of the website is various shades of off white, pinks and lilac. These were chosen as they are colours convey themes of romance and regency.
+The colour scheme of the website is various shades of off white, pinks and lilac. These were chosen as they are colours that convey themes of romance and regency.
+
+![colour palette image](assets/readme-images/colour-scheme.png)
 
 
 #### Typography 
@@ -35,6 +37,9 @@ The colour scheme of the website is various shades of off white, pinks and lilac
 The images used on the website contain books and flowers to convey the webistes purpose as a romance book club.
 
 ### Wireframes
+![Wireframes](assets/readme-images/wireframes.png)
+![Mobile Wireframes](assets/readme-images/mobilewireframes.png)
+
 
 
 ---
@@ -42,15 +47,43 @@ The images used on the website contain books and flowers to convey the webistes 
 #### Navigation Menu
 * The website logo sits at the top of the websites pages and is linked with the home so that when it is clicked the user is brought back to the home page.
 * The navigation bar sits below the logo and is fully responsive. A border with a pink backgrpund colour encases the page title depending on the page of the website the user is on.
+
+![Navigation Bar](assets/readme-images/navigationbar.png)
+
 #### About Us
+* Located beneath the home page hero image.
+* Provides information on the books club such as who the book club is for and when and where the events happen.
+* A image of Jane Asuten's book sits between the information to contribute to the regency book club theme of the website.
+
+![About the club section](assets/readme-images/abouttheclub.png)
+
 
 #### What we are reading 
+* Located beneathe the about the club section. 
+* give the user details on what the book club is reading currently.
+* It contains the book title and book cover image.
+
+![Currently Reading](assets/readme-images/currentlyreading.png)
+
 #### Footer
-#### Events Page 
+* Located at the bottom of each page of the webite.
+* Provides contact information and social media links.
+
+![Footer](assets/readme-images/footer.png)
+#### Events Page
+* The events page provides the user with the information on upcoming events.
+* Each section includes a book title, book cover, short synopsis of the book and link to the goodreads page on the book.
+* The goodreads link changes from black to pink when a mouse hovers on it.
+
+![Events section](assets/readme-images/bookevents.png)
 #### Sign up page
+* The signup form has four input fields first name, last name, email and a section for the user to write about why they want to join the book club.
+* A image of a book is the covers the background of the join page.
+
+![Join Form](assets/readme-images/joinpage.png)
 ---
 ### Future Feature
-A blog page that includes various articles on regency genre books, book adaptations and book revies.
+* A blog page containing various articles on regency genre books, book adaptations and book revies.
 
 ---
 
@@ -59,6 +92,7 @@ A blog page that includes various articles on regency genre books, book adaptati
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 * [Balsamiq](https://balsamiq.com/)
+* [Tinyjpg](https://tinyjpg.com/)
 * [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [Gitpod](https://www.gitpod.io/)
@@ -134,7 +168,7 @@ Book synopsis was taken from [Gooreads](https://www.goodreads.com/) website.
 Hero Images from [Unsplash](https://unsplash.com/) user [Sixteen Miles out](https://unsplash.com/@sixteenmilesout)
 About The Club image from [Pexels](https://www.pexels.com/) user [Leah Kelly](https://www.pexels.com/@leah-kelley-50725)
 Join page cover image from [Pexels](https://www.pexels.com/) user [Olya Kobruseva](https://www.pexels.com/@olyakobruseva)
-Book Cover images from [Goolgle Images](https://images.google.co.uk/)
+Book Cover images from the developer, [Lisa Molloy](https://www.linkedin.com/in/lisa-molloy-b30565163/)
 
 
 
