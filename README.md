@@ -3,24 +3,26 @@ I'd Rather Be At Pemberley is a website for an online book club that meets once 
 
 [I'd Rather Be At Pemberley](https://lisamolloy5.github.io/id-rather-be-at-pemberley/index.html)
 
+![Devices Image](assets/readme-images/deviceimage.jpg)
+
 ---
 ## User Experience
 ---
 ### User Stories
 ---
 #### First Time Visitor Goals
-* Easily navigate the site.
-* To find information on the book, what type of books read and where it takes place.
-* I want to easily find their social media links .
-* Purpose of site.
+* As a first time visitor, I want to easily navigate the site.
+* As a first time visitor, I want To find information on the book, what type of books read and where it takes place.
+* As a first time visitor, I want to easily find their social media links .
+* As a first time visitor, I want to easily understand the purpose of site.
 #### Returning Visitor Goals
-* I want to find information on what upcoming events are being held and when they are.
-* I want to fine how I can join the book club.
-* I want to easily find contact information if I have queries before joining the book club.
+* As a returning visitor, I want to find information on what upcoming events are being held and when they are.
+* As a returning visitor, I want to fine how I can join the book club.
+* As a returning visitor, I want to easily find contact information if I have queries before joining the book club.
 
 #### Frequent User Goals
-*  want to be able to check for any upcoming book club events.
-* I want to be able to check what book the book club is currently reading before attending the meet up.
+* As a first time visitor, I want to be able to check for any upcoming book club events.
+* As a first time visitor, I want to be able to check what book the book club is currently reading before attending the meet up.
 
 ### Design
 ---
@@ -46,7 +48,7 @@ The images used on the website contain books and flowers to convey the webistes 
 ## Features
 #### Navigation Menu
 * The website logo sits at the top of the websites pages and is linked with the home so that when it is clicked the user is brought back to the home page.
-* The navigation bar sits below the logo and is fully responsive. A border with a pink backgrpund colour encases the page title depending on the page of the website the user is on.
+* The navigation bar sits below the logo and is fully responsive. A border with a pink background colour encases the page title depending on the page of the website the user is on.
 
 ![Navigation Bar](assets/readme-images/navigationbar.png)
 
@@ -138,9 +140,20 @@ Link to the GitHub repository [I'd Rather Be At pmberley Repository](https://git
 
 ---
 # Testing
-1. inlcude Responive
-2. include lighthouse
-3. include bugs
+---
+## Code Validator 
+The 'I'd Rather Be At Pemberley' website was tested thoroughly. All code was ran though [W3C html Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the code. Minor bugs were found and fixed so that no errors were returned.
+
+#### HTML Validator Results
+* Home Page
+![Home Validation](assets/readme-images/homevalidation.png)
+* Events Page
+![Events Validation](assets/readme-images/eventsvalidation.png)
+* Join Page
+![Join Validation](assets/readme-images/joinvalidation.png)
+
+#### CSS Validator Results
+![CSS Validation](assets/readme-images/cssvalidation.png)
 ---
 ## Credit
 ---
@@ -178,5 +191,5 @@ I would like to thank [Precious Ijege](https://www.linkedin.com/in/precious-ijeg
 
 
 
-
+[testing](TEStING.md)
 

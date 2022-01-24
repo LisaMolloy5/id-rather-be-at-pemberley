@@ -229,6 +229,14 @@ h2 {
     flex: 1;
 }
 
+#currently-reading-info a{
+    color: #292929;
+}
+
+#currently-reading-info a:hover{
+    color: #CA687F;
+}
+
 
 /* footer */
 
