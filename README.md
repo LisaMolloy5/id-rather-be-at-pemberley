@@ -15,6 +15,7 @@ I'd Rather Be At Pemberley is a website for an online book club that meets once 
 * As a first time visitor, I want To find information on the book, what type of books read and where it takes place.
 * As a first time visitor, I want to easily find their social media links .
 * As a first time visitor, I want to easily understand the purpose of site.
+
 #### Returning Visitor Goals
 * As a returning visitor, I want to find information on what upcoming events are being held and when they are.
 * As a returning visitor, I want to fine how I can join the book club.
@@ -140,6 +141,7 @@ Link to the GitHub repository [I'd Rather Be At pmberley Repository](https://git
 
 ---
 # Testing
+Please find the informaton on testng the 'I'd Rather Be At Pemberley' [here](TEStING.md).
 ---
 ## Code Validator 
 The 'I'd Rather Be At Pemberley' website was tested thoroughly. All code was ran though [W3C html Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the code. Minor bugs were found and fixed so that no errors were returned.
@@ -188,8 +190,6 @@ Book Cover images from the developer, [Lisa Molloy](https://www.linkedin.com/in/
 
 ## Acknowledgements
 I would like to thank [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) my mentor for his continuous help throughout my project.
+I would also lik to thank the Slack Community for the feedback and help provided.
 
-
-
-[testing](TEStING.md)
 

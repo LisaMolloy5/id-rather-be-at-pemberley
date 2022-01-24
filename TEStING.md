@@ -60,18 +60,34 @@ The 'I'd Rather Be At Pemberley' website was tested thoroughly. All code was ran
 
   # Futher Testing
 
-  ## Responive Testing
   * Responsive design testing for the website was carried out using [Google Chrome Dev Tools](https://www.google.com/chrome/dev/), [Website Planet](https://www.websiteplanet.com/) and [Responsive Design Checker](https://responsivedesignchecker.com/)
   * The website was checked on various devices such as Iphone 5/SE, Iphone X, Samsung Galay S8+, Nokia N9, Ipad, Galaxy Tab, Laptop and Desktop.
-  
- ## Browser Testing
- * This Website was test on Google Chrome, Safari, Microsoft Edge , Internnet Explorer and Mozilla Firefox.
+
+  * This Website was tested on the browsers Google Chrome, Safari, Microsoft Edge , Internnet Explorer and Mozilla Firefox.
+
+  * Testing was done to make sure all links work correctly and opened in a new tab.
+  * Family and Friends where asked to asked to help point out any bugs in the website and proofread the documentation.
  
 
 
   # Known Bugs
+  ### During Validation a few bugs were shown including:
 
-  ![Links Error](assets/readme-images/linkserror.png)
+  ### The first bug was an error which meant the link to the website pages was not working.
+
+   ![Links Error](assets/readme-images/linkserror.png)
+
+  * ### This was resolvd by containg the link with the list item.
+
+  ### The secong by was an error with the font awesome script.
+
   ![Script Error](assets/readme-images/scripterror.png)
+
+  * ### This was resolved by removing the duplicate boby tag that had accidently been placed in the code.
+
+  ### The third bug was an error with the hero images on both the Home and Events page.
+
   ![Hero Image Error](assets/readme-images/heroimageerror.png)
+
+  * ### This was resolved by removing the section tag that surrounded the div tag.
 
