@@ -10,6 +10,8 @@ The 'I'd Rather Be At Pemberley' website was tested thoroughly. All code was ran
 ![Events Validation](assets/readme-images/eventsvalidation.png)
 * Join Page
 ![Join Validation](assets/readme-images/joinvalidation.png)
+* Thank you Page
+![Thank You Validation](assets/readme-images/thankyouvalidation.png)
 
 #### CSS Validator Results
 ![CSS Validation](assets/readme-images/cssvalidation.png)

@@ -82,6 +82,12 @@ The images used on the website contain books and flowers to convey the webistes 
 * A image of a book is the covers the background of the join page.
 
 ![Join Form](assets/readme-images/joinpage.png)
+
+#### Thank you page
+* When the join form is submitted a the user is brought to the thank you page.
+* It tells the user thank you and that the book club will be in touch shortly.
+![Thank You Page](assets/readme-images/thankyoupage.png)
+
 ---
 ### Future Feature
 * A blog page containing various articles on regency genre books, book adaptations and book revies.
@@ -111,6 +117,7 @@ This project was deployed to GitHub Pages. To deploy
 5. Click the 'source' dropdown named 'none' and change it to 'Master Branch.
 6. Click save.
 7. The page will refresh automatically with the successfully deployed website.
+![Deployment](assets/readme-images/deployment.png)
 
 Link to the GitHub repository [I'd Rather Be At pmberley Repository](https://github.com/LisaMolloy5/id-rather-be-at-pemberley)
 
@@ -123,6 +130,7 @@ Link to the GitHub repository [I'd Rather Be At pmberley Repository](https://git
 5. Open Git Bash.
 6. Replace the current working directory to the location you wish the cloned directory to be made.
 7. Type git clone, and paste the URL from copied in step 4.
+![Cloning](assets/readme-images/cloning.png)
 
 
 ---
