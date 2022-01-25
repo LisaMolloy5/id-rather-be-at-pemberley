@@ -638,3 +638,23 @@ footer {
         max-width: 70%;
     }
 }
+@media screen and (max-width: 300px) {
+    a h1{
+        font-size: 150%;
+    }
+
+    #about-us-container {
+        margin: 0;
+        width: 100%;
+    }
+
+    #about-us-container img{
+        width: 90%;
+
+    }
+
+    .footer-container>ul{
+        font-size: 70%;
+    }
+
+}

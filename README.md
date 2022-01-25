@@ -1,33 +1,9 @@
 # I'd Rather Be At Pemberley
-I'd Rather Be At Pemberley is a website for an online book club that meets once a month ran in Ireland. It hopes to provide users who have a love of reading and Jane Austen a place to join and meet up with other Austen fans to read and review similar regency romance books each month.
+I'd Rather Be At Pemberley is a website for an online book club ran in Ireland that meets once a month. It hopes to provide users who have a love of reading and Jane Austen a place to join and meet up with other Austen fans to read and review similar regency romance books each month.
 
 [I'd Rather Be At Pemberley](https://lisamolloy5.github.io/id-rather-be-at-pemberley/index.html)
 
 ![Devices Image](assets/readme-images/deviceimage.jpg)
-
----
-# Table Of Contents
- * [User Experience](<##user-experience>)
-    1. [User Stories](<###user-stories>)
-    2. [Design](<###design>)
-    3. [Wireframes](<###wireframes>)
- * [Features](<##features>)
-    1. [Navigation Menu](<####navigation-menu>)
-    2. [About The club](<####about-the-club>)
-    3. [What We Are Reading](<####what-we-are-reading>)
-    4. [Footer](<####footer>)
-    5. [Events Page](<####events-page>)
-    6. [Sign Up Page](<####sign-up-page>)
-    7. [Future Features](<###future-feature>)
- * [Technology Used](<##technology-used>)
- * [Deployment](<#deployment>)
- * [Testing](<#testing>)
- * [Credit](<#credit>)
-   1. [Code Used](<##code-used>)
-   2. [Content](<##content>)
-   3. [Media](<##media>)
- * [Acknowledgements](<##acknowledgements>)
-
 
 ---
 ## User Experience
@@ -137,13 +113,6 @@ This project was deployed to GitHub Pages. To deploy
 7. The page will refresh automatically with the successfully deployed website.
 
 Link to the GitHub repository [I'd Rather Be At pmberley Repository](https://github.com/LisaMolloy5/id-rather-be-at-pemberley)
-
-#### Fork the Repository#
-
-1. Log in or join GitHub.
-2. Find the GitHub Repository.
-3. Locate the Fork buuton at the top left of the repository.
-4. Click the Fork button and you should have a copy of the original reposirtory.
 
 #### Make a local clone of the Repository
 
