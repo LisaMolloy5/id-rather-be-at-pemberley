@@ -243,7 +243,7 @@ h2 {
 /* Footer using Flexbox tutorial used URL - https://www.youtube.com/watch?v=UOnFJ6tu3PY */
 
 footer {
-    color: white;
+    color: #292929;
 
     background-color: #D891A2;
 
@@ -290,7 +290,7 @@ footer {
     padding: 0 15px;
     margin-bottom: 5px;
 
-    color: white
+    color: #292929;
 }
 
 /* Events */
