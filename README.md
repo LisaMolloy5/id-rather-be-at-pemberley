@@ -152,6 +152,7 @@ Please find the informaton on testng the 'I'd Rather Be At Pemberley' website [h
 
 * [CSS Box Shadow](https://www.w3schools.com/csS/css3_shadows_box.asp)
 
+* [Meta tag code to remove Telefone Formatting in Safari](https://stackoverflow.com/questions/226131/how-to-disable-phone-number-linking-in-mobile-safari)
 ---
 
 ## Content

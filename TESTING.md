@@ -116,8 +116,13 @@ The 'I'd Rather Be At Pemberley' website was tested thoroughly. All code was ran
   ![About Bug](assets/readme-images/aboutbug.png)
   ![About The Club Book](assets/readme-images/aboutclubbug.png)
 
-  * the Events section had too large of a margin and was unreadable on mobile and small tablet screen sizes.
+  * The Events section had too large of a margin and was unreadable on mobile and small tablet screen sizes.
   ![Events Bug](assets/readme-images/eventbug.png)
+
+  ### Browser Bug
+  
+  * When the website was opened in the browser Safari, the phone number in the footer was showing as a hyperlink. I removed this by using a meta tag to remove the telefone formatting.
+  ![Safari Bug](assets/readme-images/safaribug.jpg)
 
 
 
