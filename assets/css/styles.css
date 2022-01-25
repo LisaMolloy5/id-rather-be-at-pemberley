@@ -448,6 +448,16 @@ footer {
     border-color: #CA687F;
 }
 
+#comments{
+    background: transparent;
+
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+
+    width: 100%;
+    height: 75px;
+}
+
 .join-button {
     margin-top: 20px;
 
@@ -470,11 +480,28 @@ footer {
     color: #CA687F;
 }
 
+#thank-you-page{
+
+
+    background: url('../images/joincoverimage.jpg');
+    background-size: cover;
+    background-position: center;
+
+    height: 500px;
+
+}
+
+#thank-you{
+    font-family: 'Open Sans', sans-serif;;
+    text-align: center;
+    padding: 100px;
+
+}
 
 /* Media Queries */
 
 /* For screen sizes 920px wide and down */
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 930px){
     #home-welcome-image {
         height: 300px;
     }
@@ -507,7 +534,7 @@ footer {
     }
 
 }
-*/
+
 /* For screen sizes 750px wide and down*/
 
 @media screen and (max-width: 750px) {
@@ -526,7 +553,25 @@ footer {
     #events-welcome-image {
         height: 250px;
     }
+}
 
+/* For screen sizes 750px wide and down*/
+
+@media screen and (max-width: 750px) {
+a h1 {
+    font-size: 300%;
+}
+
+#home-welcome-image {
+    height: 250px;
+}
+
+.title {
+    margin: 20px 15%;
+}
+
+#events-welcome-image {
+    height: 250px;
 }
 
 

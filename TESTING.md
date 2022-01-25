@@ -66,17 +66,20 @@ The 'I'd Rather Be At Pemberley' website was tested thoroughly. All code was ran
   * Responsive design testing for the website was carried out using [Google Chrome Dev Tools](https://www.google.com/chrome/dev/), [Website Planet](https://www.websiteplanet.com/) and [Responsive Design Checker](https://responsivedesignchecker.com/)
 
   * The website was checked on various devices such as Iphone 5/SE, Iphone X, Samsung Galay S8+, Nokia N9, Ipad, Galaxy Tab, Laptop and Desktop.
-  * The website was adjusted 
+  * The website was checked on all devices to see that the website flowed and nothing was too large or out of the screen view.
+  * Any issues that were shown such as the website logo being to large on mobile screens and the events page needing adjusting to fit on mobile screens were fixed using media queires.
 
   # Browser Compatibility Testing 
   
   * This Website was tested on the browsers Google Chrome, Safari, Microsoft Edge and Mozilla Firefox.
-  * 
-  
- 
+  * Links where checked in each browser to make sure they worked correctly and were not broken.
+  * The functionality of each page of the website was checked to make sure they worked.
+  * The appearance of the website was checked on each browser to make sure nothing was out of place.
 
 
   # Known Bugs
+  ### Validatin bugs
+  ---
   ### During Validation a few bugs were shown including:
 
   ### The first bug was an error which meant the link to the website pages was not working properly.
@@ -96,6 +99,25 @@ The 'I'd Rather Be At Pemberley' website was tested thoroughly. All code was ran
   ![Hero Image Error](assets/readme-images/heroimageerror.png)
 
   * ### This was resolved by removing the section tag that surrounded the div tag.
+
+  ### Responsive Bugs
+  ---
+  Whiles testing the responsive design of the website some bugs were encountered.
+
+  * The Logo was too large on mobile screen sizes and need to be made smaller with media queries.
+  ![Logo Bug](assets/readme-images/logobug.png)
+
+  * The Navigation bar look askew on mobile screen sizes and needed to be made vertical with media queries.
+  ![Nav Bug](assets/readme-images/navbug.png)
+
+  * The About The club section needed to be changed from a row into a column when on tablet and mobile screen sizes.
+  ![About Bug](assets/readme-images/aboutbug.png)
+  ![About The Club Book](assets/readme-images/aboutclubbug.png)
+
+  * the Events section had too large of a margin and was unreadable on mobile and small tablet screen sizes.
+  ![Events Bug](assets/readme-images/eventbug.png)
+
+
 
   # Lighthouse 
   This website was tested using the [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) feature. The scores for the home and events page went from to 60% to over 90% performance once image files were compressed.
