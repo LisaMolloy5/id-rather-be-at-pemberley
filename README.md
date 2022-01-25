@@ -6,18 +6,40 @@ I'd Rather Be At Pemberley is a website for an online book club that meets once 
 ![Devices Image](assets/readme-images/deviceimage.jpg)
 
 ---
+# Table Of Contents
+ * [User Experience](##user-experience)
+    1. [User Stories](###user-stories)
+    2. [Design](###design)
+    3. [Wireframes](###wireframes)
+ * [Features](##features)
+    1. [Navigation Menu](####navigation-menu)
+    2. [About The club](####about-the-club)
+    3. [What We Are Reading](####what-we-are-reading)
+    4. [Footer](####footer)
+    5. [Events Page](####events-page)
+    6. [Sign Up Page](####sign-up-page)
+    7. [Future Features](###future-feature)
+ * [Technology Used](##technology-used)
+ * [Deployment](#deployment)
+ * [Testing](#testing)
+ * [Credit](#credit)
+   1. [Code Used](##code-used)
+   2. [Content](##content)
+   3. [Media](##media)
+ * [Acknowledgements](##acknowledgements)
+
+
+---
 ## User Experience
 ---
 ### User Stories
 ---
 #### First Time Visitor Goals
 * As a first time visitor, I want to easily navigate the site.
-* As a first time visitor, I want To find information on the book, what type of books read and where it takes place.
-* As a first time visitor, I want to easily find their social media links .
-* As a first time visitor, I want to easily understand the purpose of site.
+* As a first time visitor, I want To find information on the book club, what type of books read and where it takes place.
+* As a first time visitor, I want to easily find their social media links.
 
 #### Returning Visitor Goals
-* As a returning visitor, I want to find information on what upcoming events are being held and when they are.
 * As a returning visitor, I want to fine how I can join the book club.
 * As a returning visitor, I want to easily find contact information if I have queries before joining the book club.
 
@@ -53,7 +75,7 @@ The images used on the website contain books and flowers to convey the webistes 
 
 ![Navigation Bar](assets/readme-images/navigationbar.png)
 
-#### About Us
+#### About The Club
 * Located beneath the home page hero image.
 * Provides information on the books club such as who the book club is for and when and where the events happen.
 * A image of Jane Asuten's book sits between the information to contribute to the regency book club theme of the website.
@@ -92,20 +114,15 @@ The images used on the website contain books and flowers to convey the webistes 
 
 ## Technology Used
 ---
-* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) was used to 
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
-* [Balsamiq](https://balsamiq.com/)
-* [Tinyjpg](https://tinyjpg.com/)
-* [Font Awesome](https://fontawesome.com/)
-* [Google Fonts](https://fonts.google.com/)
-* [Gitpod](https://www.gitpod.io/)
-* [Github](https://github.com/)
-
-
-####
-
-
-
+* [Balsamiq](https://balsamiq.com/) was used to create the website wireframes.
+* [Tinyjpg](https://tinyjpg.com/) was used to compress images.
+* [Font Awesome](https://fontawesome.com/) was used to for the icons on the website.
+* [Google Fonts](https://fonts.google.com/) was used for the fonts on the website.
+* [Gitpod](https://www.gitpod.io/) was used to write and edit to code.
+* [Github](https://github.com/) was used to host and deploy the website.
+---
 
 # Deployment
 #### Github deployment
@@ -141,55 +158,44 @@ Link to the GitHub repository [I'd Rather Be At pmberley Repository](https://git
 
 ---
 # Testing
-Please find the informaton on testng the 'I'd Rather Be At Pemberley' [here](TEStING.md).
----
-## Code Validator 
-The 'I'd Rather Be At Pemberley' website was tested thoroughly. All code was ran though [W3C html Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the code. Minor bugs were found and fixed so that no errors were returned.
-
-#### HTML Validator Results
-* Home Page
-![Home Validation](assets/readme-images/homevalidation.png)
-* Events Page
-![Events Validation](assets/readme-images/eventsvalidation.png)
-* Join Page
-![Join Validation](assets/readme-images/joinvalidation.png)
-
-#### CSS Validator Results
-![CSS Validation](assets/readme-images/cssvalidation.png)
+Please find the informaton on testng the 'I'd Rather Be At Pemberley' website [here](TESTING.md).
 ---
 ## Credit
 ---
 ### Code Used
-[For css animation](https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1)
+* [For css animation](https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1)
 
-[Creating a centered horizontal Navigation](https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/)
+* [Creating a centered horizontal Navigation](https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/)
 
-[Float an Image Without Text Wrapping Using CSS Flex ](https://www.youtube.com/watch?v=e2RQM4pE8uI)
+* [Float an Image Without Text Wrapping Using CSS Flex ](https://www.youtube.com/watch?v=e2RQM4pE8uI)
 
-[Creating a Simple Footer With Flexbox](https://www.youtube.com/watch?v=UOnFJ6tu3PY)
+* [Creating a Simple Footer With Flexbox](https://www.youtube.com/watch?v=UOnFJ6tu3PY)
 
-[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-[CSS Box Shadow](https://www.w3schools.com/csS/css3_shadows_box.asp)
+* [CSS Box Shadow](https://www.w3schools.com/csS/css3_shadows_box.asp)
 
 ---
 
 ## Content
-Most content was written by the developer.
-Book synopsis was taken from [Gooreads](https://www.goodreads.com/) website.
+* All content was written by the developer.
+* Book sysnopses were taken from back of the books.
 
 
 ## Media
-Hero Images from [Unsplash](https://unsplash.com/) user [Sixteen Miles out](https://unsplash.com/@sixteenmilesout)
-About The Club image from [Pexels](https://www.pexels.com/) user [Leah Kelly](https://www.pexels.com/@leah-kelley-50725)
-Join page cover image from [Pexels](https://www.pexels.com/) user [Olya Kobruseva](https://www.pexels.com/@olyakobruseva)
-Book Cover images from the developer, [Lisa Molloy](https://www.linkedin.com/in/lisa-molloy-b30565163/)
+* Hero Images from [Unsplash](https://unsplash.com/) user [Sixteen Miles out](https://unsplash.com/@sixteenmilesout)
+* About The Club image from [Pexels](https://www.pexels.com/) user [Leah Kelly](https://www.pexels.com/@leah-kelley-50725)
+* Join page cover image from [Pexels](https://www.pexels.com/) user [Olya Kobruseva](https://www.pexels.com/@olyakobruseva)
+* Book Cover images from the developer, [Lisa Molloy](https://www.linkedin.com/in/lisa-molloy-b30565163/)
 
 
 
 
 ## Acknowledgements
-I would like to thank [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) my mentor for his continuous help throughout my project.
-I would also lik to thank the Slack Community for the feedback and help provided.
+* I would like to thank [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) my mentor for his continuous help throughout my project.
+* I would like to thank my tutor 
+* I would also lik to thank the Slack Community for the feedback and help provided.
+
+2022 Lisa Molloy
 
 

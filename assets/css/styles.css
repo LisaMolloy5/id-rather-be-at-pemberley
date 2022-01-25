@@ -250,7 +250,7 @@ h2 {
 /* Footer using Flexbox tutorial used URL - https://www.youtube.com/watch?v=UOnFJ6tu3PY */
 
 footer {
-    color: black;
+    color: #292929;
 
     background-color: #D891A2;
 
@@ -297,7 +297,7 @@ footer {
     padding: 0 15px;
     margin-bottom: 5px;
 
-    color: black;
+    color: #292929;
 }
 
 .flex-row-2 i:hover{
