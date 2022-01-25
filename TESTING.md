@@ -16,7 +16,7 @@ The 'I'd Rather Be At Pemberley' website was tested thoroughly. All code was ran
 
 ---
 
-# User Testing 
+# User Stories Testing 
 
 #### First Time Visitor Goals
 
@@ -60,15 +60,19 @@ The 'I'd Rather Be At Pemberley' website was tested thoroughly. All code was ran
   2. It highlights the book being currently read by the book club.
   3. There is also a link to the events page that changes to a pink font color when a mouse hovers on it showing it can be clicked, so that the user can find information on when the book will be reviewed.
 
-  # Futher Testing
+
+  # Responsive Desgin Testing
 
   * Responsive design testing for the website was carried out using [Google Chrome Dev Tools](https://www.google.com/chrome/dev/), [Website Planet](https://www.websiteplanet.com/) and [Responsive Design Checker](https://responsivedesignchecker.com/)
-  * The website was checked on various devices such as Iphone 5/SE, Iphone X, Samsung Galay S8+, Nokia N9, Ipad, Galaxy Tab, Laptop and Desktop.
 
-  * This Website was tested on the browsers Google Chrome, Safari, Microsoft Edge , Internnet Explorer and Mozilla Firefox.
+  * The website was checked on various devices such as Iphone 5/SE, Iphone X, Samsung Galay S8+, Nokia N9, Ipad, Galaxy Tab, Laptop and Desktop.
+  * The website was adjusted 
+
+  # Browser Compatibility Testing 
   
-  * Testing was done to make sure all links work correctly and opened in a new tab.
-  * Family and Friends where asked to asked to help point out any bugs in the website and proofread the documentation.
+  * This Website was tested on the browsers Google Chrome, Safari, Microsoft Edge and Mozilla Firefox.
+  * 
+  
  
 
 
