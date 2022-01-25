@@ -16,12 +16,12 @@ I'd Rather Be At Pemberley is a website for an online book club ran in Ireland t
 * As a first time visitor, I want to easily find their social media links.
 
 #### Returning Visitor Goals
-* As a returning visitor, I want to fine how I can join the book club.
+* As a returning visitor, I want to find how I can join the book club.
 * As a returning visitor, I want to easily find contact information if I have queries before joining the book club.
 
 #### Frequent User Goals
-* As a first time visitor, I want to be able to check for any upcoming book club events.
-* As a first time visitor, I want to be able to check what book the book club is currently reading before attending the meet up.
+* As a frequent visitor, I want to be able to check for any upcoming book club events.
+* As a frequent visitor, I want to be able to check what book the book club is currently reading before attending the meet up.
 
 ### Design
 ---

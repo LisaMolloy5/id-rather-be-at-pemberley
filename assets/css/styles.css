@@ -269,6 +269,8 @@ footer {
 
 .footer-container>ul {
     text-decoration: none;
+
+    border: 1px solid red;
     
     margin-bottom: 10px;
 
