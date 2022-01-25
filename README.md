@@ -90,8 +90,8 @@ The images used on the website contain books and flowers to convey the webistes 
 
 ## Technology Used
 ---
-* [HTML5](https://en.wikipedia.org/wiki/HTML5) was used to 
-* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) was the coding language used.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) was the coding language used to style the website.
 * [Balsamiq](https://balsamiq.com/) was used to create the website wireframes.
 * [Tinyjpg](https://tinyjpg.com/) was used to compress images.
 * [Font Awesome](https://fontawesome.com/) was used to for the icons on the website.
@@ -152,17 +152,17 @@ Please find the informaton on testng the 'I'd Rather Be At Pemberley' website [h
 
 
 ## Media
-* Hero Images from [Unsplash](https://unsplash.com/) user [Sixteen Miles out](https://unsplash.com/@sixteenmilesout)
-* About The Club image from [Pexels](https://www.pexels.com/) user [Leah Kelly](https://www.pexels.com/@leah-kelley-50725)
-* Join page cover image from [Pexels](https://www.pexels.com/) user [Olya Kobruseva](https://www.pexels.com/@olyakobruseva)
-* Book Cover images from the developer, [Lisa Molloy](https://www.linkedin.com/in/lisa-molloy-b30565163/)
+* The Hero Images ysed are from [Unsplash](https://unsplash.com/) user [Sixteen Miles out](https://unsplash.com/@sixteenmilesout)
+* The About The Club image is from [Pexels](https://www.pexels.com/) user [Leah Kelly](https://www.pexels.com/@leah-kelley-50725)
+* The Join page cover image is from [Pexels](https://www.pexels.com/) user [Olya Kobruseva](https://www.pexels.com/@olyakobruseva)
+* The Book Cover images are from the developer, [Lisa Molloy](https://www.linkedin.com/in/lisa-molloy-b30565163/)
 
 
 
 
 ## Acknowledgements
 * I would like to thank [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) my mentor for his continuous help throughout my project.
-* I would like to thank my tutor 
+* I would like to thank my tutor Kasia Bogucka. 
 * I would also lik to thank the Slack Community for the feedback and help provided.
 
 2022 Lisa Molloy
