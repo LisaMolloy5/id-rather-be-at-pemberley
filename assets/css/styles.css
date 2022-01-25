@@ -29,8 +29,12 @@ a h1 {
     padding: 5px;
     font-size: 300%;
     text-align: center;
-    color: #292929;
+    color: black;
 
+}
+
+a h1:hover{
+    color: #fef4fe;
 }
 
 h2 {
@@ -96,7 +100,10 @@ h2 {
 
     display: inline;
 
-    
+}
+
+.nav a:hover{
+    color: #fef4fe;
 }
 
 
@@ -243,7 +250,7 @@ h2 {
 /* Footer using Flexbox tutorial used URL - https://www.youtube.com/watch?v=UOnFJ6tu3PY */
 
 footer {
-    color: #292929;
+    color: black;
 
     background-color: #D891A2;
 
@@ -290,7 +297,11 @@ footer {
     padding: 0 15px;
     margin-bottom: 5px;
 
-    color: #292929;
+    color: black;
+}
+
+.flex-row-2 i:hover{
+    color: #fef4fe;
 }
 
 /* Events */
@@ -395,7 +406,7 @@ footer {
     padding: 30px;
     margin: 150px 10% 0 0;
 
-    color: white;
+    color: #fef4fe;
 
     border: 2px solid rgba(200, 162, 200, 1);
     border-radius: 30px;
