@@ -33,12 +33,12 @@ a h1 {
 
 }
 
-a h1:hover{
+a h1:hover {
     color: #fef4fe;
 }
 
 h2 {
-    font-family: 'Open Sans' , sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin: auto;
 }
@@ -102,7 +102,7 @@ h2 {
 
 }
 
-.nav a:hover{
+.nav a:hover {
     color: #fef4fe;
 }
 
@@ -112,7 +112,7 @@ h2 {
 
     padding: 5px 50px 5px 50px;
 
-    text-decoration: none;    
+    text-decoration: none;
     color: #292929;
 }
 
@@ -135,7 +135,7 @@ h2 {
 
 /* Flexbox guide used URL- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 
-.title{
+.title {
     font-family: 'Allura', cursive;
     font-size: 300%;
     letter-spacing: 5px;
@@ -171,7 +171,7 @@ h2 {
 #flex-left {
     text-align: left;
     letter-spacing: 2px;
-  
+
     flex: 1;
 
     padding: 2px 30px 10px 30px;
@@ -217,7 +217,7 @@ h2 {
     width: 100%;
 }
 
-  
+
 
 #currently-reading img {
     height: 400px;
@@ -236,11 +236,11 @@ h2 {
     flex: 1;
 }
 
-#currently-reading-info a{
+#currently-reading-info a {
     color: #292929;
 }
 
-#currently-reading-info a:hover{
+#currently-reading-info a:hover {
     color: #CA687F;
 }
 
@@ -300,13 +300,13 @@ footer {
     color: #292929;
 }
 
-.flex-row-2 i:hover{
+.flex-row-2 i:hover {
     color: #fef4fe;
 }
 
 /* Events */
 
-#events-welcome-image{
+#events-welcome-image {
     height: 400px;
     width: 100%;
 
@@ -371,7 +371,7 @@ footer {
 .events>p {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
-    font-size: 140%; 
+    font-size: 140%;
 
     color: #292929;
 }
@@ -379,7 +379,7 @@ footer {
 .goodreads {
     font-family: 'Open Sans', sans-serif;
     font-size: 200%;
-    
+
     color: #292929;
 
 }
@@ -419,7 +419,7 @@ footer {
 
     position: absolute;
     left: 10%;
-    
+
 }
 
 .signup-form>h2 {
@@ -450,7 +450,7 @@ footer {
 
 .join-button {
     margin-top: 20px;
-    
+
     border: 2px solid #CA687F;
     border-radius: 30px;
 
@@ -474,27 +474,27 @@ footer {
 /* Media Queries */
 
 /* For screen sizes 920px wide and down */
-@media screen and (max-width: 920px){
-    #home-welcome-image{
+@media screen and (max-width: 920px) {
+    #home-welcome-image {
         height: 300px;
     }
 
 
-    #about-us-container{
+    #about-us-container {
         flex-direction: column;
         text-align: center;
     }
 
-    .title{
+    .title {
         width: auto;
         font-size: 200%;
     }
 
-    #flex-left{
+    #flex-left {
         text-align: center;
     }
 
-    #flex-right{
+    #flex-right {
         text-align: center;
     }
 
@@ -502,7 +502,7 @@ footer {
         height: 200px;
     }
 
-    .events{
+    .events {
         margin: 50px 100px;
     }
 
@@ -510,33 +510,34 @@ footer {
 
 /* For screen sizes 750px wide and down*/
 
-@media screen and (max-width: 750px){
-    a h1{
+@media screen and (max-width: 750px) {
+    a h1 {
         font-size: 300%;
     }
 
-    #home-welcome-image{
+    #home-welcome-image {
         height: 250px;
     }
-    .title{
+
+    .title {
         margin: 20px 15%;
     }
-    
-     #events-welcome-image{
-         height: 250px;
-     }
+
+    #events-welcome-image {
+        height: 250px;
+    }
 
 }
 
 
 /* For media screens sizes 660px wide and down*/
-@media screen and (max-width: 660px){
+@media screen and (max-width: 660px) {
 
-    #home-welcome-image{
+    #home-welcome-image {
         height: 200px;
     }
 
-    
+
 
     #events-welcome-image {
         height: 200px;
@@ -548,30 +549,30 @@ footer {
 
     }
 
-    .events{
+    .events {
         margin: 40px;
     }
 }
 
 /* For media screen sizes 550px */
-@media screen and (max-width: 550px){
-    a h1{
+@media screen and (max-width: 550px) {
+    a h1 {
         font-size: 200%;
     }
 
-    .nav{
+    .nav {
         padding: 0 110px;
     }
 
-    .title{
+    .title {
         font-size: 160%;
     }
 
 }
 
 /* For screen sizes 470px wide */
-@media screen and (max-width: 470px){
-    .nav{
+@media screen and (max-width: 470px) {
+    .nav {
         font-size: 70%;
     }
 
@@ -579,36 +580,36 @@ footer {
         height: 150px;
     }
 
-    .events img{
+    .events img {
         max-width: 70%;
     }
 
-    .events{
+    .events {
         margin: 30px;
     }
 
 }
 
 /* For screen sizes 420px */
-@media screen and (max-width: 420px){
-    a h1{
+@media screen and (max-width: 420px) {
+    a h1 {
         font-size: 180%;
 
     }
 
-    .nav{
-        padding: 0 20% ;
+    .nav {
+        padding: 0 20%;
     }
 
-    #home-welcome-image{
+    #home-welcome-image {
         height: 100px;
     }
 
-    .title  {
+    .title {
         margin: 15px 10%;
     }
 
-    #currently-reading img{
+    #currently-reading img {
         width: 90%;
         height: 300px;
     }
@@ -617,7 +618,7 @@ footer {
         height: 100px;
     }
 
-    #events-text h2{
+    #events-text h2 {
         top: 10px;
         left: 0px;
 
@@ -629,16 +630,11 @@ footer {
 
     }
 
-    .events{
+    .events {
         margin: 20px;
     }
 
-    .events img{
+    .events img {
         max-width: 70%;
     }
-
 }
-
-
-
-

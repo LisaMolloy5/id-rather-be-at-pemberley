@@ -94,7 +94,11 @@ The 'I'd Rather Be At Pemberley' website was tested thoroughly. All code was ran
   * ### This was resolved by removing the section tag that surrounded the div tag.
 
   # Lighthouse 
+  This website was tested using the [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) feature. The scores for the home and events page went from to 60% to over 90% performance once image files were compressed.
 
   ## * Home Page
+  ![Home Lighthouse](assets/readme-images/homelighthouse.png)
   ## * Events Page 
+  ![Events Lighthouse](assets/readme-images/eventslighthouse.png)
   ## * Join Page 
+  ![Join Lighthouse](assets/readme-images/joinlighthouse.png)
