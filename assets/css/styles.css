@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+
     border: none;
 }
 
@@ -10,7 +11,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
+
     color: #292929;
+
     background-color: #fef4fe;
 }
 
@@ -26,10 +29,12 @@ a {
 
 a h1 {
     font-family: 'Allura', cursive;
-    padding: 5px;
     font-size: 300%;
     text-align: center;
+
     color: black;
+
+    padding: 5px;
 
 }
 
@@ -40,6 +45,7 @@ a h1:hover {
 h2 {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+
     margin: auto;
 }
 
@@ -48,7 +54,9 @@ h2 {
 
 .css-animation {
     background-color: #D891A2;
+
     height: 70px;
+
     animation-name: logo;
     animation-duration: 10s;
 
@@ -72,6 +80,7 @@ h2 {
 .active {
     border: 2px solid #fef4fe;
     background-color: #E2ACB9;
+    
     border-radius: 30px;
 }
 
