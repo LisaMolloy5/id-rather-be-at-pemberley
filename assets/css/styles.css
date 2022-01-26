@@ -80,7 +80,7 @@ h2 {
 .active {
     border: 2px solid #fef4fe;
     background-color: #E2ACB9;
-    
+
     border-radius: 30px;
 }
 
@@ -417,7 +417,7 @@ footer {
 
     color: #fef4fe;
 
-    border: 2px solid rgba(200, 162, 200, 1);
+    border: 2px solid rgba(200, 162, 200, .5);
     border-radius: 30px;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -457,7 +457,7 @@ footer {
     border-color: #CA687F;
 }
 
-#comments{
+#comments {
     background: transparent;
 
     border: 1px solid #fafafa;
@@ -489,7 +489,7 @@ footer {
     color: #CA687F;
 }
 
-#thank-you-page{
+#thank-you-page {
 
 
     background: url('../images/joincoverimage.jpg');
@@ -500,8 +500,9 @@ footer {
 
 }
 
-#thank-you{
-    font-family: 'Open Sans', sans-serif;;
+#thank-you {
+    font-family: 'Open Sans', sans-serif;
+    ;
     text-align: center;
     padding: 100px;
 
@@ -510,7 +511,7 @@ footer {
 /* Media Queries */
 
 /* For screen sizes 920px wide and down */
-@media screen and (max-width: 930px){
+@media screen and (max-width: 930px) {
     #home-welcome-image {
         height: 300px;
     }
@@ -567,22 +568,22 @@ footer {
 /* For screen sizes 750px wide and down*/
 
 @media screen and (max-width: 750px) {
-a h1 {
-    font-size: 300%;
-}
+    a h1 {
+        font-size: 300%;
+    }
 
-#home-welcome-image {
-    height: 250px;
-}
+    #home-welcome-image {
+        height: 250px;
+    }
 
-.title {
-    margin: 20px 15%;
-}
+    .title {
+        margin: 20px 15%;
+    }
 
-#events-welcome-image {
-    height: 250px;
+    #events-welcome-image {
+        height: 250px;
+    }
 }
-
 
 /* For media screens sizes 660px wide and down*/
 @media screen and (max-width: 660px) {
@@ -692,8 +693,10 @@ a h1 {
         max-width: 70%;
     }
 }
+
+/* For screen sizes 300px */
 @media screen and (max-width: 300px) {
-    a h1{
+    a h1 {
         font-size: 150%;
     }
 
@@ -702,13 +705,12 @@ a h1 {
         width: 100%;
     }
 
-    #about-us-container img{
+    #about-us-container img {
         width: 90%;
 
     }
 
-    .footer-container>ul{
+    .footer-container>ul {
         font-size: 70%;
     }
-
 }
